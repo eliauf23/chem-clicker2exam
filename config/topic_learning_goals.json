@@ -1,94 +1,268 @@
 {
+  "1": {
+    "title": "Matter, Models and Math",
+    "goals": {
+      "1": "Recognize that all matter is made of atoms.",
+      "2": "Recognize that different types of atoms are called elements.",
+      "3": "Recognize that all elements are organized on the periodic table.",
+      "4": "Identify metals, non-metals and semi-metals on the periodic table and describe properties of metals that make them different from non-metals.",
+      "5": "Identify the names of the elements of the first two rows of the periodic table and attach the name to pictures.",
+      "6": "Identify solids, liquids and gases on the periodic table.",
+      "7": "Sketch particle pictures for solids, liquids and gases.",
+      "8": "Observe animations and describe the motion as translational, rotational or vibrational.",
+      "9": "Observe animations and link the motions to the physical state of matter (solid, liquid, gas).",
+      "10": "Predict how temperature changes the speed of particles.",
+      "11": "Represent numbers using scientific notation.",
+      "12": "Perform calculations with numbers written in scientific notation.",
+      "13": "Estimate orders of magnitude based on scientific notation.",
+      "14": "Convert among metric prefixes without being given the conversion factor.",
+      "15": "Convert between any given set of units, if given the conversion factors, using proportions or dimensional analysis."
+    }
+  },
+  "2": {
+    "title": "Atoms and Orbitals",
+    "goals": {
+      "1": "Draw a planetary picture of the atom and identify the component particles of an atom.",
+      "2": "Use isotope notation to obtain the number of protons, neutrons and electrons for any atom or ion.",
+      "3": "Write and interpret the isotopic representation of an element.",
+      "4": "Use the periodic table to obtain the number of protons for a given atom or atom symbol, or determine the number of protons given an atom name or symbol.",
+      "5": "Articulate the principle that an atom’s identity is determined by the number of protons.",
+      "6": "Calculate the average mass number from the periodic table for any element based on isotope abundance and formula mass.",
+      "7": "Identify the s, p, d and f shapes of the atomic orbitals.",
+      "8": "Break the periodic table into four distinct sections that refer to the orbital (s, p, d, f) of the valence electrons.",
+      "9": "Write electronic configurations for any atom and its ions using the periodic table (both long-hand and noble-gas configurations).",
+      "10": "Identify ionic charges based on the position of an element on the periodic table for atoms in Groups 1, 2, 15, 16 and 17.",
+      "11": "Determine the magnetism (paramagnetic or diamagnetic) of any atom or ion based on its electron configuration."
+    }
+  },
+  "3": {
+    "title": "Basic Bonding Principles",
+    "goals": {
+      "1": "Recognize that all bonding occurs due to electrostatic interactions between electrons and the nucleus.",
+      "2": "Recognize that the name of the electrostatic interaction is Coulomb’s law and that the strength of attraction between charged particles increases as the particles get closer.",
+      "3": "Recognize that like charges repel and opposite charges attract, so atomic nuclei without electrons would repel and electrons are needed to mediate nuclear repulsions.",
+      "4": "Identify ionically bonded compounds by the positions of the atoms on the periodic table.",
+      "5": "Balance ionic charges to generate chemical formulas for ionic compounds.",
+      "6": "Identify binary compounds from their chemical formula and determine whether the compound is ionic or covalent.",
+      "7": "Name binary ionic and binary covalent compounds from the chemical formula.",
+      "8": "Write the chemical formula from the chemical name of a binary ionic or binary covalent compound.",
+      "9": "Recognize, recall and name all polyatomic ions in the table of polyatomic ions, knowing the formula and charge for each ion.",
+      "10": "Construct and name ionic compounds that contain polyatomic ions.",
+      "11": "Identify ionic charges based on the position of an element on the periodic table for any atom.",
+      "12": "Write electronic configurations for any ion using the periodic table.",
+      "13": "Identify the number of atoms of each atom type in a given chemical formula."
+    }
+  },
+  "4": {
+    "title": "Introduction to Covalent Bonding",
+    "goals": {
+      "1": "Identify molecules with covalent bonds by looking at the position of the atoms on the periodic table and comparing relative electronegativities.",
+      "2": "Use electronegativity to predict bond polarity.",
+      "3": "Predict the number of valence electrons for any atom or ion based on its position on the periodic table.",
+      "4": "Sketch electronic distribution based on Lewis structure and bond polarity.",
+      "5": "Assess the validity of a given Lewis structure.",
+      "6": "Draw Lewis structures for simple covalently bonded molecules using atoms from the first and second rows of the periodic table.",
+      "7": "Use Lewis structures to predict trends in bond length and bond strength."
+    }
+  },
+  "5": {
+    "title": "The Chemical Equation",
+    "goals": {
+      "1": "Articulate the principle of conservation of matter and how balancing equations relates to that principle.",
+      "2": "Balance the number of atoms in a chemical reaction on the reactant and product side given the chemical equation.",
+      "3": "Balance the number of atoms in a chemical reaction on the reactant and product side given a word equation.",
+      "4": "Use the balanced chemical equation to compute the numbers of atoms or molecules produced or consumed in a chemical reaction."
+    }
+  },
+  "6": {
+    "title": "Energy Considerations",
+    "goals": {
+      "1": "Recognize the difference between potential and kinetic energy and know examples of potential energy, namely gravitational and electrostatic.",
+      "2": "Write a clear statement defining chemical potential energy and link endothermic and exothermic reactions to the energy of reactants and products in a chemical reaction.",
+      "3": "Identify endothermic or exothermic reactions from the position of heat in a chemical reaction or from the signs of ΔE and/or ΔH.",
+      "4": "Identify endothermic or exothermic reactions from reaction coordinate diagrams.",
+      "5": "Recognize that all combustion reactions are exothermic.",
+      "6": "Link changes in temperature of the surroundings to changes in energy of a system for endothermic and exothermic reactions.",
+      "7": "State whether energy is released or required (absorbed) when a bond breaks or is formed.",
+      "8": "Link endothermicity or exothermicity to the net change in bonds broken and formed.",
+      "9": "Use a table of bond energies to compute the total energy change for a chemical reaction and to predict the thermicity (endo or exo) of a reaction."
+    }
+  },
+  "7": {
+    "title": "Periodic Trends",
+    "goals": {
+      "1": "Use Coulomb’s law to describe the source of potential energy in atoms (electrostatic potential energy) and the energy of motion of the electrons.",
+      "2": "Note that energy of the atom typically means the electrostatic potential energy and the kinetic energy of the electrons.",
+      "3": "Recall the definitions of atomic size, electronegativity, ionization energy and electron affinity.",
+      "4": "Recognize the periodic trends for these properties based on the periodic table for elements and their ions.",
+      "5": "Rationalize the periodic properties of elements and ions.",
+      "6": "Recall and rationalize the exceptions to the ionization energy trend.",
+      "7": "Write electron configurations for a series of isoelectronic ions.",
+      "8": "Predict the relative sizes of isoelectronic ions.",
+      "9": "Interpret graphs of periodic properties as a function of atomic number."
+    }
+  },
+  "8": {
+    "title": "Atomic Spectroscopy",
+    "goals": {
+      "1": "Use (without memorizing) the Rydberg equation to calculate energy levels.",
+      "2": "Use the Rydberg equation to calculate energy differences for specific transitions or calculate specific transitions from energy differences.",
+      "3": "Use the relationship between wavelength and frequency to compute wavelength from frequency and vice versa for light.",
+      "4": "Relate the color of light to its frequency or wavelength.",
+      "5": "Identify the visible region of the electromagnetic spectrum and demonstrate that visible light is a small fraction of the EM spectrum.",
+      "6": "Use the Planck equation to relate the energy of a photon to its frequency or wavelength.",
+      "7": "Identify the low-energy vs high-energy ends of the EM spectrum and relate this to wavelengths and frequency.",
+      "8": "Recognize how the electromagnetic spectrum is used to probe atomic structure.",
+      "9": "Use an atomic spectrum to compute possible energy-level transitions.",
+      "10": "Use an atomic spectrum to compute the nuclear charge.",
+      "11": "Relate energy level differences of an atom to the wavelength of the corresponding photon.",
+      "12": "Use the Rydberg equation to compute a line spectrum."
+    }
+  },
+  "9": {
+    "title": "The Electron",
+    "goals": {
+      "1": "Describe the failure of the classical model to explain the hydrogen atom’s stability.",
+      "2": "Describe the duality of nature, including what defines a particle (mass and position) and what defines a wave (diffraction and interference).",
+      "3": "Calculate the mass of a photon and recognize the Compton effect as an experiment suggesting photons have mass and are therefore particles.",
+      "4": "Use the de Broglie equation to calculate wavelengths of particles and realize that particles can act as waves.",
+      "5": "Be familiar with the double-slit experiment and how it is used to demonstrate wave behavior.",
+      "6": "Recognize that the s, p, d and f orbitals are the wavefunctions of electrons and represent electron density and positional probability.",
+      "7": "Relate the quantum number l to the orbital subshell notation (s, p, d, f).",
+      "8": "Recognize and determine the allowed quantum numbers n, l and ml.",
+      "9": "Identify the s, p, d and f blocks on the periodic table and use that to predict some quantum numbers.",
+      "10": "Interpret radial distributions of electrons and relate radial nodes and radial pictures to three-dimensional orbital shapes.",
+      "11": "Identify the correct number of angular nodes for s, p and d orbitals.",
+      "12": "Recognize the resulting electron density from superimposed orbitals.",
+      "13": "Relate radial distribution curves to energy-level diagrams."
+    }
+  },
+  "10": {
+    "title": "Molecular Geometry",
+    "goals": {
+      "1": "Recognize that bond formation results in a lowering of energy.",
+      "2": "Predict if a bond is polar using a table of electronegativities.",
+      "3": "Predict whether a molecule with a given shape has a dipole moment based on adding (pictorially) individual bond dipole moments or symmetry.",
+      "4": "Given a picture, determine whether a molecule has a dipole moment, or knowing the dipole moment, predict how the electrostatic potential might look.",
+      "5": "Draw resonance structures for appropriate molecules.",
+      "6": "Recognize that bonding in resonance structures produces a non-integer bond order.",
+      "7": "Calculate formal charges for each atom from a Lewis structure.",
+      "8": "Evaluate resonance structures and determine the hybrid structure.",
+      "9": "Relate bond length, bond strength and bond order to particular resonance structures.",
+      "10": "Draw Lewis structures for molecules that are exceptions to the octet rule.",
+      "11": "Predict and name the electron geometries and corresponding bond angles for covalent molecules using VSEPR.",
+      "12": "Predict molecular shapes from a name and/or chemical formula using Lewis structures and VSEPR rules."
+    }
+  },
+  "11": {
+    "title": "Valence Bond Theory",
+    "goals": {
+      "1": "Recognize sp, sp2, sp3, dsp3 and d2sp3 hybridization.",
+      "2": "State the hybridization of carbon’s atomic orbitals when given a valid Lewis structure.",
+      "3": "Recognize sigma and pi bonds and relate those to bond order.",
+      "4": "Sketch sigma and pi bonds from the overlap of hybrid orbitals.",
+      "5": "Explain why there is rotation around a single bond but not around multiple bonds."
+    }
+  },
+  "12": {
+    "title": "Molecular Orbital Theory",
+    "goals": {
+      "1": "Draw the resulting bonding and antibonding orbitals when two s orbitals overlap, two p orbitals overlap head-on, or two p orbitals overlap sideways.",
+      "2": "Distinguish among sigma (σ), pi (π), σ* and π* (bonding and antibonding) orbitals in molecular orbital theory.",
+      "3": "Identify nodes in a molecular orbital.",
+      "4": "Given an energy diagram, predict observable properties such as bond order, magnetism, bond length and electron density."
+    }
+  },
   "13": {
     "title": "The Mole",
     "goals": {
-      "1": "Recall and apply the basic rules of scientific notation, rounding, metric units and dimensional analysis",
-      "2": "Rearrange a basic algebraic expression to isolate any variable in the expression (i.e. mass = moles × molar mass)",
-      "3": "Revisit balancing a chemical equation and use the coefficients to predict the number of atoms or molecules produced or used in a chemical reaction",
-      "4": "Articulate that the atomic mass in the periodic table is the number of grams in a mole of the element, or equivalently, the number of grams in an Avogadro's number of atoms",
-      "5": "Memorize Avogadro's number: 6.023 × 10^23 particles/mol",
-      "6": "Use the periodic table to determine the mass (in grams) of a given mole of different substances",
-      "7": "Interpret the chemical formula to compute the molar mass",
-      "8": "Convert between moles and masses for an arbitrary amount of matter",
-      "9": "Convert between numbers of particles, moles and grams",
-      "10": "Scale up the coefficients to realize that they can refer to the number of atoms and molecules or to the number of moles",
-      "11": "Balance chemical equations and recognize that coefficients can represent mole numbers"
+      "1": "Recall and apply the basic rules of scientific notation, rounding, metric units and dimensional analysis.",
+      "2": "Rearrange a basic algebraic expression to isolate any variable in the expression (i.e. mass = moles × molar mass).",
+      "3": "Revisit balancing a chemical equation and use the coefficients to predict the number of atoms or molecules produced or used in a chemical reaction.",
+      "4": "Articulate that the atomic mass in the periodic table is the number of grams in a mole of the element, or equivalently, the number of grams in an Avogadro's number of atoms.",
+      "5": "Memorize Avogadro's number: 6.023 × 10^23 particles/mol.",
+      "6": "Use the periodic table to determine the mass (in grams) of a given mole of different substances.",
+      "7": "Interpret the chemical formula to compute the molar mass.",
+      "8": "Convert between moles and masses for an arbitrary amount of matter.",
+      "9": "Convert between numbers of particles, moles and grams.",
+      "10": "Scale up the coefficients to realize that they can refer to the number of atoms and molecules or to the number of moles.",
+      "11": "Balance chemical equations and recognize that coefficients can represent mole numbers."
     }
   },
   "14": {
     "title": "Stoichiometry Calculations",
     "goals": {
-      "1": "Identify the limiting and excess reagents in a chemical reaction based on given amounts of reactants",
-      "2": "Use the chemical equation to compute the maximum amount (theoretical yield) of products produced",
-      "3": "Use the chemical equation to compute the amount of reactants needed to produce a 100% yield",
-      "4": "Use the chemical equation to predict masses of all components after a reaction has run to 100% completion (amount of reactant reacted, amount of unreacted excess reactant, amount of product produced)",
-      "5": "Recognize the actual yield in a chemical reaction based on the wording of a problem",
-      "6": "Compute percent yields for any chemical reaction from actual yields and theoretical yields",
-      "7": "Incorporate limiting reagent calculations into all stoichiometric calculations starting with given amounts of reactants or given amounts of products",
-      "8": "For any given set of conditions compute the amount of reactants and products in the reaction vessel (including moles, mass, percent yield, and/or number of particles)"
+      "1": "Identify the limiting and excess reagents in a chemical reaction based on given amounts of reactants.",
+      "2": "Use the chemical equation to compute the maximum amount (theoretical yield) of products produced.",
+      "3": "Use the chemical equation to compute the amount of reactants needed to produce a 100% yield.",
+      "4": "Use the chemical equation to predict the masses of all components after a reaction has run to 100% completion, including amount of reactant reacted, amount of reactant unreacted (excess), and amount of product produced.",
+      "5": "Recognize the actual yield in a chemical reaction based on the wording of a problem.",
+      "6": "Compute percent yields for any chemical reaction from actual yields and theoretical yields.",
+      "7": "Incorporate limiting reagent calculations into stoichiometric calculations starting with given amounts of reactants or given amounts of products.",
+      "8": "For any given set of conditions, compute the amounts of reactants and products in the reaction vessel (including mole, mass, percent yield and/or number of particles)."
     }
   },
   "15": {
     "title": "Empirical and Molecular Formula",
     "goals": {
-      "1": "Compute percent composition for any element based on the chemical formula of a compound",
-      "2": "Obtain the empirical formula from mass measurements, percent composition, and chemical reactions",
-      "3": "Obtain molecular formulas from empirical formulas and molecular weight data",
-      "4": "Determine empirical and molecular formulas from combustion reactions"
+      "1": "Compute percent composition for any element based on the chemical formula of a compound.",
+      "2": "Obtain the empirical formula from mass measurements, percent composition and chemical reactions.",
+      "3": "Obtain molecular formulas from empirical formulas and molecular weight data.",
+      "4": "Determine empirical and molecular formulas from combustion reactions."
     }
   },
   "16": {
-    "title": "Phase Change and Intermolecular Forces (IMF)",
+    "title": "Phase Change and Intermolecular Forces",
     "goals": {
-      "1": "Draw particle diagrams that distinguish gas and liquid phases and describe the motion in the phases",
-      "2": "Identify the six phase transitions: evaporation, condensation, freezing, melting, sublimation, and deposition",
-      "3": "Identify the different phases and phase transitions on a heating curve and a phase diagram",
-      "4": "Recognize the phase transitions that require the most energy",
-      "5": "Interpret a phase diagram and identify the normal boiling point and normal freezing point, the triple point, and the vapor pressure at different temperatures",
-      "6": "Recognize that heat and temperature are different concepts; temperature is a measure of kinetic energy of the particles and heat is a transfer of energy from one body to another",
-      "7": "Define vapor pressure and describe trends in vapor pressure as a function of temperature",
-      "8": "Draw a particle diagram representing vapor pressure",
-      "9": "Define the normal boiling point in terms of vapor pressure",
-      "10": "Describe the difference between intermolecular forces and intramolecular forces",
-      "11": "Describe the three main intermolecular forces (London dispersion, dipole–dipole, hydrogen bonding) and rank their relative strengths",
-      "12": "Recognize and predict intermolecular forces present in a substance when given its name or chemical structure"
+      "1": "Draw particle diagrams that distinguish gas and liquid phases and describe the motion in each phase.",
+      "2": "Identify the six phase transitions: evaporation, condensation, freezing, melting, sublimation and deposition.",
+      "3": "Identify the different phases and phase transitions on a heating curve and phase diagram.",
+      "4": "Recognize the phase transitions that require the most energy.",
+      "5": "Interpret a phase diagram and identify the normal boiling point, normal freezing point, triple point and the vapor pressure at different temperatures.",
+      "6": "Recognize that heat and temperature are different concepts; temperature is a measure of kinetic energy of the particles and heat is a transfer of energy from one body to another.",
+      "7": "Define vapor pressure and describe its trends as a function of temperature.",
+      "8": "Draw a particle diagram representing vapor pressure.",
+      "9": "Define the normal boiling point in terms of vapor pressure.",
+      "10": "Describe the difference between intermolecular forces and intramolecular forces.",
+      "11": "Describe the three main intermolecular forces (London dispersion, dipole–dipole and hydrogen bonding) and rank their relative strengths.",
+      "12": "Recognize and predict the intermolecular forces present in a substance when given its name or chemical structure."
     }
   },
   "17": {
     "title": "Gases",
     "goals": {
-      "1": "List the ideal gas postulates and relate them to the motion of gas molecules",
-      "2": "Identify the four variables used to characterize a gas quantitatively (P, T, V, and n)",
-      "3": "Describe pressure as an average force per unit area",
-      "4": "Recognize when the average force increases due to changes in momentum or collision frequency",
-      "5": "Realize that the pressure of a gas is proportional to the mole number of the gas (at constant P, T, V) and thus gas pressure can be used in place of moles in stoichiometry calculations",
-      "6": "Assign the proper units to each of the variables: express P in atm, n in moles, T in Kelvin, V in liters, and use R = 0.0821 L·atm/(mol·K)",
-      "7": "Convert among units of volume (milliliter, liter, cm^3), pressure (torr, atm, kPa), and temperature (°C and K)",
-      "8": "Write down the ideal gas law and use algebra to rearrange PV = nRT to isolate each variable",
-      "9": "Identify problems as single-state problems and set up the single-state equation with one unknown variable",
-      "10": "Identify problems as two-state problems and determine which variables are changing and which are constant",
-      "11": "Modify the single-state equation to explicitly solve for density, mass, or molar mass",
-      "12": "Solve double-state problems for an unknown and for relative changes in volume and pressure",
-      "13": "Relate the speeds of particles to their kinetic energy and use a graph to show that different particles have different energies at one temperature",
-      "14": "Remember and write down the relationship between PV and kinetic energy and between temperature and kinetic energy",
-      "15": "Use the PV and kinetic energy equations to relate speed and mass (and molar mass) to temperature",
-      "16": "Predict relative average speeds and relative diffusion rates of gaseous particles",
-      "17": "Predict relative speeds of effusion and diffusion"
+      "1": "List the ideal gas postulates and relate them to the motion of gas molecules.",
+      "2": "Identify the four variables used to characterize a gas quantitatively (P, T, V and n).",
+      "3": "Describe pressure as an average force per area.",
+      "4": "Recognize when the average force increases due to changes in momentum or collision frequency.",
+      "5": "Realize that the pressure of a gas is proportional to the mole number of the gas (at constant P, T, V), so gas pressure can be used in place of mole in stoichiometry calculations.",
+      "6": "Assign proper units to each variable: P in atm, n in moles, T in Kelvin and V in liters, and use R = 0.0821 L·atm/(mol·K).",
+      "7": "Convert among units of volume (mL, L, cm³), pressure (torr, atm, kPa) and temperature (°C and K).",
+      "8": "Write the ideal gas law and use algebra to rearrange PV = nRT to isolate each variable.",
+      "9": "Identify problems as single-state problems and set up the single-state equation with one unknown.",
+      "10": "Identify problems as two-state problems and determine which variables are changing and which are constant.",
+      "11": "Modify the single-state equation to explicitly solve for density, mass or molar mass.",
+      "12": "Solve double-state problems for an unknown and for relative changes in volume and pressure.",
+      "13": "Relate the speeds of particles to their kinetic energy and use a graph to show that different particles have different energies at one temperature.",
+      "14": "Recall and write down the relationships between PV and kinetic energy and between T and kinetic energy.",
+      "15": "Use the PV and kinetic energy equations to relate speed and mass (and molar mass) to temperature.",
+      "16": "Predict relative average speeds and relative diffusion rates of gaseous particles.",
+      "17": "Predict relative speeds of effusion and diffusion."
     }
   },
   "18": {
     "title": "Applications of Stoichiometry",
     "goals": {
-      "1": "Draw particle diagrams for dissolving an ionic solid in water or for dissolving a polar covalent compound in water",
-      "2": "Identify the solute and the solvent in a solution",
-      "3": "Use the molarity formula to compute mass, moles, volume, or molarity",
-      "4": "Use the dilution formula to compute molarity and volume after dilution",
-      "5": "Identify and name three types of reactions: combustion, synthesis and decomposition, and precipitation/dissolution",
-      "6": "Predict products of combustion reactions from the known oxides of the elements involved",
-      "7": "Predict products of synthesis and decomposition reactions",
-      "8": "Predict products of precipitation reactions using solubility rules",
-      "9": "Write molecular and net ionic equations for precipitation and dissolution reactions",
-      "10": "Demonstrate knowledge of nomenclature rules, reaction types, and predicting products by performing stoichiometric calculations for reactions containing solids, liquids, gases, or solutions"
+      "1": "Draw particle diagrams for dissolving an ionic solid in water or for dissolving a polar covalent compound in water.",
+      "2": "Identify the solute and the solvent in a solution.",
+      "3": "Use the molarity formula to compute mass, moles, volume or molarity.",
+      "4": "Use the dilution formula to compute molarity and volume after dilution.",
+      "5": "Identify and name the three types of reactions: combustion, synthesis/decomposition and precipitation/dissolution.",
+      "6": "Predict products of combustion reactions from known oxides.",
+      "7": "Predict products of synthesis and decomposition reactions.",
+      "8": "Predict products of precipitation reactions using solubility rules.",
+      "9": "Write molecular and net ionic equations for precipitation and dissolution reactions.",
+      "10": "Demonstrate knowledge of nomenclature rules, reaction types and predicting products by performing stoichiometric calculations for reactions containing solids, liquids, gases or solutions."
     }
   }
 }

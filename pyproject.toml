@@ -1,0 +1,7 @@
+[project]
+name = "chem_clicker2exam"
+version = "0.1.0"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["exam_bank"]

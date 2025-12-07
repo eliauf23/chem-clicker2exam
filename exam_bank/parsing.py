@@ -1,63 +1,17 @@
 import re
 import json
-from dataclasses import dataclass, asdict
-from typing import List, Dict, Tuple, Optional, Iterable
-from pypdf import PdfReader, PdfWriter
+from dataclasses import asdict
+from typing import List, Dict, Optional
 from typing import List, Optional
 import pdfplumber
 
 from exam_bank.models import Question
-
-
-
-# ---------- REGEXES ----------
-
-# Regular questions: T13–18Q1–100
-# QUESTION_HEADER_RE = re.compile(
-#     r"""^
-#         T(1[3-8])             # topic 13-18  -> group(1)
-#         Q(100|[1-9][0-9]?)    # question 1-100 -> group(2)
-#         \b
-#     """,
-#     re.IGNORECASE | re.VERBOSE,
-# )
-QUESTION_HEADER_RE = re.compile(
-    r"""^
-        T(1[3-8])                 # topic 13-18           -> group(1)
-        Q(100|[1-9][0-9]?)        # question 1-100        -> group(2)
-        \s*:\s*
-        Level\s*([1-4])           # Level 1-4             -> group(3)
-        \s*\(
-        L\.G\.\s*([^)]+)          # everything inside (...) -> group(4)
-        \)\s*$
-    """,
-    re.IGNORECASE | re.VERBOSE,
+from exam_bank.regexes import (
+    QUESTION_HEADER_RE,
+    SOLUTION_HEADER_RE,
+    CHALLENGE_HEADER_RE,
+    CHALLENGE_SOLUTION_HEADER_RE,
 )
-
-# Regular solutions: T13–18Q1–100: Solution
-SOLUTION_HEADER_RE = re.compile(
-    r"""^
-        T(1[3-8])
-        Q(100|[1-9][0-9]?)
-        \s*:\s*Solution\b
-    """,
-    re.IGNORECASE | re.VERBOSE,
-)
-
-# Challenge question: "8 pt challenge" (you can tweak if wording differs)
-CHALLENGE_HEADER_RE = re.compile(
-    r"""\b8\s*pt\s*challenge\b""",
-    re.IGNORECASE,
-)
-
-# Challenge solution: "Q0: Solution"
-CHALLENGE_SOLUTION_HEADER_RE = re.compile(
-    r"""^Q0\s*:\s*Solution\b""",
-    re.IGNORECASE,
-)
-
-
-
 
 # ---------- PARSING ----------
 

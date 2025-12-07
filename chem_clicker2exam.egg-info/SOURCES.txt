@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+chem_clicker2exam.egg-info/PKG-INFO
+chem_clicker2exam.egg-info/SOURCES.txt
+chem_clicker2exam.egg-info/dependency_links.txt
+chem_clicker2exam.egg-info/top_level.txt
+exam_bank/__init__.py
+exam_bank/filters.py
+exam_bank/models.py
+exam_bank/parsing.py
+exam_bank/pdf_utils.py
+exam_bank/regexes.py
+tests/test_regex.py
