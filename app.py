@@ -12,12 +12,15 @@ from exam_bank.pdf_utils import (
     build_question_pdf,
     build_solution_pdf,
     build_interleaved_q_and_a_pdf,
-    select_questions
+    select_questions,  # assuming you export this from your package
 )
 
 SRC_PDF = "data/slides.pdf"
 BANK_JSON = "output/question_bank.json"
 TOPIC_LG_JSON = "config/topic_learning_goals.json"
+
+# Configure page *before* other st.* calls
+st.set_page_config(page_title="CHE 166 Practice Exam Builder", layout="wide")
 
 
 # -------------------------------------------------
@@ -49,12 +52,9 @@ def ensure_question_bank():
 # -------------------------------------------------
 # STREAMLIT APPLICATION
 # -------------------------------------------------
-
-st.set_page_config(page_title="Practice Exam Builder", layout="wide")
-
 def main():
     st.title("CHE 166 Practice Exam Builder 🧪📘")
-    st.subheader("Build Practice Exams From Clicker Questions")
+    st.subheader("Build practice exams from in-class clicker questions")
 
     if not os.path.exists(SRC_PDF):
         st.error(f"Missing source PDF: {SRC_PDF}")
@@ -65,76 +65,100 @@ def main():
     questions = load_question_bank_json(BANK_JSON)
     topic_lg_map = load_topic_learning_goals(TOPIC_LG_JSON)
 
-    # What topics exist in your PDF?
+    # Topics actually present in the bank
     all_topics_in_bank = sorted({q.topic for q in questions})
 
-    st.sidebar.header("Filters")
+    st.header("Filters")
 
     # --------------------------
-    # Topic selection
+    # Basic filters (always visible)
     # --------------------------
-    selected_topics = st.sidebar.multiselect(
-        "Topics",
+
+    st.markdown("### Topics")
+
+    selected_topics = st.multiselect(
+        "Choose topics",
         options=all_topics_in_bank,
         default=all_topics_in_bank,
-        format_func=lambda t: f"{t}: {topic_lg_map.get(t, {}).get('title', '')}"
+        format_func=lambda t: f"{t}: {topic_lg_map.get(t, {}).get('title', '')}",
     )
 
-    # --------------------------
-    # Dynamic learning goal list
-    # --------------------------
-    # Collect LG pairs for selected topics
-    lg_pairs = []  # (code, text)
+    st.markdown("### Levels")
 
-    if selected_topics:
-        for topic in selected_topics:
-            goal_dict = topic_lg_map.get(topic, {}).get("goals", {})
-            for code, text in goal_dict.items():
-                lg_pairs.append((code, text))
-    else:
-        # If no topics selected (unlikely) show all LGs
-        for topic, data in topic_lg_map.items():
-            for code, text in data["goals"].items():
-                lg_pairs.append((code, text))
-
-    # Deduplicate
-    seen = set()
-    unique_lg_pairs = []
-    for code, text in lg_pairs:
-        if code not in seen:
-            seen.add(code)
-            unique_lg_pairs.append((code, text))
-
-    # Build nice labels
-    lg_labels = [f"{code}: {text}" for code, text in unique_lg_pairs]
-    label_to_code = {f"{code}: {text}": code for code, text in unique_lg_pairs}
-
-    selected_lg_labels = st.sidebar.multiselect(
-        "Learning Goals",
-        options=lg_labels,
-        default=lg_labels,
-    )
-
-    # Convert UI labels → LG codes
-    selected_lg_codes = [label_to_code[label] for label in selected_lg_labels]
-
-    # --------------------------
-    # Levels (from question bank)
-    # --------------------------
     all_levels = sorted({q.level for q in questions if q.level is not None})
-    selected_levels = st.sidebar.multiselect(
-        "Levels",
+    selected_levels = st.multiselect(
+        "Choose difficulty levels",
         options=all_levels,
         default=all_levels,
     )
 
-    include_challenges = st.sidebar.checkbox("Include challenge questions (Q0)", value=True)
+    include_challenges = st.checkbox("Include challenge questions (Q0)", value=True)
 
+    # --------------------------
+    # Advanced Mode toggle
+    # --------------------------
+
+    advanced_mode = st.checkbox("Advanced filters (learning goals)", value=False)
+
+    # --------------------------
+    # Learning Goals (only shown in advanced mode)
+    # --------------------------
+
+    if advanced_mode:
+        st.markdown("### Learning Goals (filtered by topic)")
+
+        # Build list of (topic, code, text)
+        lg_triplets: list[tuple[int, str, str]] = []
+
+        if selected_topics:
+            for topic in selected_topics:
+                goal_dict = topic_lg_map.get(topic, {}).get("goals", {})
+                for code, text in goal_dict.items():
+                    lg_triplets.append((topic, code, text))
+        else:
+            # If no topics somehow selected, show all LGs
+            for topic, data in topic_lg_map.items():
+                for code, text in data["goals"].items():
+                    lg_triplets.append((topic, code, text))
+
+        # Dedupe
+        seen = set()
+        unique_lg_triplets = []
+        for topic, code, text in lg_triplets:
+            key = (topic, code)
+            if key not in seen:
+                seen.add(key)
+                unique_lg_triplets.append((topic, code, text))
+
+        # Labels like: "T14 · LG 3: Compute theoretical yield"
+        lg_labels = []
+        label_to_code = {}
+        for topic, code, text in unique_lg_triplets:
+            label = f"T{topic} · LG {code}: {text}"
+            lg_labels.append(label)
+            label_to_code[label] = code
+
+        selected_lg_labels = st.multiselect(
+            "Choose learning goals",
+            options=lg_labels,
+            default=lg_labels,
+        )
+
+        st.markdown("**Selected Learning Goals:**")
+        for label in selected_lg_labels:
+            st.markdown(f"- {label}")
+
+        selected_lg_codes = [label_to_code[label] for label in selected_lg_labels]
+
+    else:
+        # No LG filtering
+        selected_lg_codes = None
+
+    # -------------------------------------------------------
+    # Name + Build PDFs
+    # -------------------------------------------------------
     base_name = st.text_input("Name your PDF set", value="practice")
 
-    # -------------------------------------------------------
-    # Generate PDFs when the user clicks
-    # -------------------------------------------------------
     if st.button("Build PDFs"):
         selected = select_questions(
             questions,
@@ -162,28 +186,28 @@ def main():
         build_interleaved_q_and_a_pdf(SRC_PDF, selected, qa_path)
 
         # Helper to load PDF bytes
-        def load_bytes(path):
+        def load_bytes(path: str) -> bytes:
             with open(path, "rb") as f:
                 return f.read()
 
         st.success("PDFs generated! Download below:")
 
-        col1, col2, col3 = st.columns(3)
-        with col1:
+        c1, c2, c3 = st.columns(3)
+        with c1:
             st.download_button(
                 "⬇️ Questions PDF",
                 data=load_bytes(q_path),
                 file_name=os.path.basename(q_path),
                 mime="application/pdf",
             )
-        with col2:
+        with c2:
             st.download_button(
                 "⬇️ Solutions PDF",
                 data=load_bytes(s_path),
                 file_name=os.path.basename(s_path),
                 mime="application/pdf",
             )
-        with col3:
+        with c3:
             st.download_button(
                 "⬇️ Q&A PDF",
                 data=load_bytes(qa_path),
