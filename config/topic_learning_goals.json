@@ -1,0 +1,94 @@
+{
+  "13": {
+    "title": "The Mole",
+    "goals": {
+      "1": "Recall and apply the basic rules of scientific notation, rounding, metric units and dimensional analysis",
+      "2": "Rearrange a basic algebraic expression to isolate any variable in the expression (i.e. mass = moles × molar mass)",
+      "3": "Revisit balancing a chemical equation and use the coefficients to predict the number of atoms or molecules produced or used in a chemical reaction",
+      "4": "Articulate that the atomic mass in the periodic table is the number of grams in a mole of the element, or equivalently, the number of grams in an Avogadro's number of atoms",
+      "5": "Memorize Avogadro's number: 6.023 × 10^23 particles/mol",
+      "6": "Use the periodic table to determine the mass (in grams) of a given mole of different substances",
+      "7": "Interpret the chemical formula to compute the molar mass",
+      "8": "Convert between moles and masses for an arbitrary amount of matter",
+      "9": "Convert between numbers of particles, moles and grams",
+      "10": "Scale up the coefficients to realize that they can refer to the number of atoms and molecules or to the number of moles",
+      "11": "Balance chemical equations and recognize that coefficients can represent mole numbers"
+    }
+  },
+  "14": {
+    "title": "Stoichiometry Calculations",
+    "goals": {
+      "1": "Identify the limiting and excess reagents in a chemical reaction based on given amounts of reactants",
+      "2": "Use the chemical equation to compute the maximum amount (theoretical yield) of products produced",
+      "3": "Use the chemical equation to compute the amount of reactants needed to produce a 100% yield",
+      "4": "Use the chemical equation to predict masses of all components after a reaction has run to 100% completion (amount of reactant reacted, amount of unreacted excess reactant, amount of product produced)",
+      "5": "Recognize the actual yield in a chemical reaction based on the wording of a problem",
+      "6": "Compute percent yields for any chemical reaction from actual yields and theoretical yields",
+      "7": "Incorporate limiting reagent calculations into all stoichiometric calculations starting with given amounts of reactants or given amounts of products",
+      "8": "For any given set of conditions compute the amount of reactants and products in the reaction vessel (including moles, mass, percent yield, and/or number of particles)"
+    }
+  },
+  "15": {
+    "title": "Empirical and Molecular Formula",
+    "goals": {
+      "1": "Compute percent composition for any element based on the chemical formula of a compound",
+      "2": "Obtain the empirical formula from mass measurements, percent composition, and chemical reactions",
+      "3": "Obtain molecular formulas from empirical formulas and molecular weight data",
+      "4": "Determine empirical and molecular formulas from combustion reactions"
+    }
+  },
+  "16": {
+    "title": "Phase Change and Intermolecular Forces (IMF)",
+    "goals": {
+      "1": "Draw particle diagrams that distinguish gas and liquid phases and describe the motion in the phases",
+      "2": "Identify the six phase transitions: evaporation, condensation, freezing, melting, sublimation, and deposition",
+      "3": "Identify the different phases and phase transitions on a heating curve and a phase diagram",
+      "4": "Recognize the phase transitions that require the most energy",
+      "5": "Interpret a phase diagram and identify the normal boiling point and normal freezing point, the triple point, and the vapor pressure at different temperatures",
+      "6": "Recognize that heat and temperature are different concepts; temperature is a measure of kinetic energy of the particles and heat is a transfer of energy from one body to another",
+      "7": "Define vapor pressure and describe trends in vapor pressure as a function of temperature",
+      "8": "Draw a particle diagram representing vapor pressure",
+      "9": "Define the normal boiling point in terms of vapor pressure",
+      "10": "Describe the difference between intermolecular forces and intramolecular forces",
+      "11": "Describe the three main intermolecular forces (London dispersion, dipole–dipole, hydrogen bonding) and rank their relative strengths",
+      "12": "Recognize and predict intermolecular forces present in a substance when given its name or chemical structure"
+    }
+  },
+  "17": {
+    "title": "Gases",
+    "goals": {
+      "1": "List the ideal gas postulates and relate them to the motion of gas molecules",
+      "2": "Identify the four variables used to characterize a gas quantitatively (P, T, V, and n)",
+      "3": "Describe pressure as an average force per unit area",
+      "4": "Recognize when the average force increases due to changes in momentum or collision frequency",
+      "5": "Realize that the pressure of a gas is proportional to the mole number of the gas (at constant P, T, V) and thus gas pressure can be used in place of moles in stoichiometry calculations",
+      "6": "Assign the proper units to each of the variables: express P in atm, n in moles, T in Kelvin, V in liters, and use R = 0.0821 L·atm/(mol·K)",
+      "7": "Convert among units of volume (milliliter, liter, cm^3), pressure (torr, atm, kPa), and temperature (°C and K)",
+      "8": "Write down the ideal gas law and use algebra to rearrange PV = nRT to isolate each variable",
+      "9": "Identify problems as single-state problems and set up the single-state equation with one unknown variable",
+      "10": "Identify problems as two-state problems and determine which variables are changing and which are constant",
+      "11": "Modify the single-state equation to explicitly solve for density, mass, or molar mass",
+      "12": "Solve double-state problems for an unknown and for relative changes in volume and pressure",
+      "13": "Relate the speeds of particles to their kinetic energy and use a graph to show that different particles have different energies at one temperature",
+      "14": "Remember and write down the relationship between PV and kinetic energy and between temperature and kinetic energy",
+      "15": "Use the PV and kinetic energy equations to relate speed and mass (and molar mass) to temperature",
+      "16": "Predict relative average speeds and relative diffusion rates of gaseous particles",
+      "17": "Predict relative speeds of effusion and diffusion"
+    }
+  },
+  "18": {
+    "title": "Applications of Stoichiometry",
+    "goals": {
+      "1": "Draw particle diagrams for dissolving an ionic solid in water or for dissolving a polar covalent compound in water",
+      "2": "Identify the solute and the solvent in a solution",
+      "3": "Use the molarity formula to compute mass, moles, volume, or molarity",
+      "4": "Use the dilution formula to compute molarity and volume after dilution",
+      "5": "Identify and name three types of reactions: combustion, synthesis and decomposition, and precipitation/dissolution",
+      "6": "Predict products of combustion reactions from the known oxides of the elements involved",
+      "7": "Predict products of synthesis and decomposition reactions",
+      "8": "Predict products of precipitation reactions using solubility rules",
+      "9": "Write molecular and net ionic equations for precipitation and dissolution reactions",
+      "10": "Demonstrate knowledge of nomenclature rules, reaction types, and predicting products by performing stoichiometric calculations for reactions containing solids, liquids, gases, or solutions"
+    }
+  }
+}

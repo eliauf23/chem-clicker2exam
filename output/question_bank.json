@@ -1,0 +1,800 @@
+[
+  {
+    "topic": 13,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "What is the molar mass of the compound, Cu (PO ) ?\n3 4 2\nA. 110.5 g/mol\nB. 237.6 g/mol\n1A C. 316.6 g/mol 8A\n1 2\nD. 349.6 g/mol\nH 2A 3A 4A 5A 6A 7A He\n1.008 E. 380.6 g/mol 4.003\n3 4 5 6 7 8 9 10\nLi Be B C N O F Ne\n6.941 9.012 10.81 12.01 14.01 16.00 19.00 20.18\n11 12 13 14 15 16 17 18\nNa Mg Al Si P S Cl Ar\n23.00 24.31 26.98 28.09 30.97 32.06 35.45 39.95\n19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36\nK Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr\n39.10 40.08 44.96 47.90 50.94 52.00 54.94 55.85 58.93 58.70 63.55 65.38 69.72 72.59 74.92 78.96 79.90 83.80\n37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54\nRb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe",
+    "solution_text": "What is the molar mass of the compound, Cu (PO ) ?\n3 4 2\nA. 110.5 g/mol Cu (PO ) :\n3 4 2\nB. 237.6 g/mol 3 x Cu\n1A C. 316.6 g/mol 2 x P 8A\n1 2\nD. 349.6 g/mol 8 x 0\nH 2A 3A 4A 5A 6A 7A He\n1.008 E. 380.6 g/mol 4.003\n3 4 5 6 7 8 9 10\nLi Be B C N O F Ne\n6.941 9.012 3(63.55) + 2(30.97) + 8(16) 10.81 12.01 14.01 16.00 19.00 20.18\n11 12 13 14 15 16 17 18\n= 380.6 g/mol\nNa Mg Al Si P S Cl Ar\n23.00 24.31 26.98 28.09 30.97 32.06 35.45 39.95\n19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36\nK Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr\n39.1m0 4o0.l0a8 r44 m.96a47s.9s0 5=0 .9m4 5a2.s00s5 o4.9f4 155 .m85 5o8l.9e3 58.70 63.55 65.38 69.72 72.59 74.92 78.96 79.90 83.80\n37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54\nRb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe",
+    "question_page": 4,
+    "solution_page": 5,
+    "level": 1,
+    "learning_goals": [
+      "6"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "The calcium sulfate used in gypsum is a hydrate (meaning that\nwater is absorbed into the sulfate). The formula for gypsum is:\nCaSO •2H O. How much would one mole of gypsum weight?\n4 2\nIn other words, what is its molar mass?\n1A 8A\nA. 172 g\n1 2\nH 2A B. 156 g 3A 4A 5A 6A 7A He\n1.008 4.003\nC. 147 g\n3 4 5 6 7 8 9 10\nLi Be B C N O F Ne\nD. 141 g\n6.941 9.012 10.81 12.01 14.01 16.00 19.00 20.18\nE. 136 g\n11 12 13 14 15 16 17 18\nNa Mg Al Si P S Cl Ar\n23.00 24.31 26.98 28.09 30.97 32.06 35.45 39.95\n19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36\nK Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr\n39.10 40.08 44.96 47.90 50.94 52.00 54.94 55.85 58.93 58.70 63.55 65.38 69.72 72.59 74.92 78.96 79.90 83.80\n37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54\nRb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe",
+    "solution_text": "The calcium sulfate used in gypsum is a hydrate (meaning that\nwater is absorbed into the sulfate). The formula for gypsum is:\nCaSO •2H O. How much would one mole of gypsum weight?\n4 2\nIn other words, what is its molar mass?\n111AAA CaSO •2H O: 888AAA\nA. 172 g\n4 2\n111 222\n1 x Ca\nHHH 222AAA B. 156 g 333AAA 444AAA 555AAA 666AAA 777AAA HHHeee\n111...000000888 444...000000333\n1 x S\nC. 147 g\n333 444 555 666 777 888 999 111000\n6 x O\nLLLiii BBBeee BBB CCC NNN OOO FFF NNNeee\nD. 141 g\n666...999444111 999...000111222 111000...888111 111222...000111 111444...000111 111666...000000 111999...000000 222000...111888\n4 x H\nE. 136 g\n111111 111222 111333 111444 111555 111666 111777 111888\nNNNaaa MMMggg AAAlll SSSiii PPP SSS CCClll AAArrr\n222333...000000 222444...333111 222666...999888 222888...000999 333000...999777 333222...000666 333555...444555 333999...999555\n111999 222000 222111 222222 222333 222444 222555 222666 222777 222888 222999 333000 333111 333222 333333 333444 333555 333666\nKKK CCCaaa SSSccc TTTiii VVV CCCrrr MMMnnn FFFeee CCCooo NNNiii CCCuuu ZZZnnn GGGaaa GGGeee AAAsss SSSeee BBBrrr KKKrrr\n333999...111000 444000...000888 444444...999666 444777...999000 555000...999444 555222...000000 555444...999444 555555...888555 555888...999333 555888...777000 666333...555555 666555...333888 666999...777222 777222...555999 777444...999222 777888...999666 777999...999000 888333...888000\n40.08 + 32.06 + 6(16.00) + 4(1.008) = 172 g/mol\n333777 333888 333999 444000 444111 444222 444333 444444 444555 444666 444777 444888 444999 555000 555111 555222 555333 555444\nRRRbbb SSSrrr YYY ZZZrrr NNNbbb MMMooo TTTccc RRRuuu RRRhhh PPPddd AAAggg CCCddd IIInnn SSSnnn SSSbbb TTTeee III XXXeee",
+    "question_page": 6,
+    "solution_page": 7,
+    "level": 1,
+    "learning_goals": [
+      "6"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "How many moles of water are in 3.6 grams of water?\nA. 2.6 x 1024 moles\n1 8\nB. 64.8 moles\nH O\nC. 3.6 moles 1.008 16.00\nD. 0.20 moles\nE. 0.40 moles",
+    "solution_text": "How many moles of water are in 3.6 grams of water?\nA. 2.6 x 1024 moles\n1 8\nB. 64.8 moles\nH O\nC. 3.6 moles 1.008 16.00\nD. 0.20 moles\nE. 0.40 moles\nM of water:\nW\n2(1.008 g/mol) + (16.00 g/mol) = 18 g/mol\nGrams Moles\nH O H O\n2 2\nYour answer will\n1 mol H O\n3.6 g H O 2 = 0.20 mol H O have units of moles\n2 2\n18 g H O\nof H O\n2 2",
+    "question_page": 8,
+    "solution_page": 9,
+    "level": 1,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "How many grams of oxygen are there in 6.2 g of Li PO ?\n3 4\nA. 0.054 grams\n3 8 15\nB. 0.21 grams\nLi O P\n6.94 16.00 30.97\nC. 3.43 grams\nD. 6.86 grams",
+    "solution_text": "How many grams of oxygen are there in 6.2 g of Li PO ?\n3 4\nA. 0.054 grams\n3 8 15\nB. 0.21 grams\nLi O P\n6.94 16.00 30.97\nC. 3.43 grams\nD. 6.86 grams 1Li PO ➔ 3Li + 1P + 40\n3 4\nM of Li PO :\nw 3 4\n3(6.94 g/mol) + 30.97 g/mol + 4(16.00 g/mol) = 115.73 g/mol\nGrams Moles Moles Grams\nYour\nmolecules molecules O atoms O\nanswer\nwill\n1 mole Li PO 4 moles O 16 grams O\nhave\n6.2 g Li PO 3 4\n3 4\nunits\n115.73 g Li PO 1 mole Li PO 1 mole O\n3 4 3 4\nof",
+    "question_page": 11,
+    "solution_page": 12,
+    "level": 2,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "How many molecules of water are in 4.1 grams of water?\nA. 0.23 molecules\n1 8\nB. 1.4 x 1023 molecules\nH O\nC. 2.5 x 1024 molecules 1.008 16.00\nD. 4.4 x 1025 molecules",
+    "solution_text": "How many molecules of water are in 4.1 grams of water?\nA. 0.23 molecules\n1 8\nB. 1.4 x 1023 molecules\nH O\nC. 2.5 x 1024 molecules 1.008 16.00\nD. 4.4 x 1025 molecules\nM of water:\nw\n2(1.008 g/mol) + (16.00 g/mol) = 18 g/mol\nGrams Moles Particles\nmolecules molecules (molecules)\nYour answer\n4.1 g H O 1 mole H O 6.022 x 1023 molecules H O will have\n2 2 2\nunits of\n18 g H O 1 mole H O\n2 2",
+    "question_page": 14,
+    "solution_page": 15,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "How many fluorine molecules are there in a 38.00 g sample of\nfluorine gas?\n9\nF\nA. 2.289 x 1025 molecules\n19.000\nB. 6.023 x 1023 molecules\nC. 1.205 x 1024 molecules\nD. 2.553 x 1024 molecules",
+    "solution_text": "How many fluorine molecules are there in a 38.00 g sample of\nfluorine gas?\n9\nF\nA. 2.289 x 1025 molecules\n19.000\nB. 6.023 x 1023 molecules\nC. 1.205 x 1024 molecules\nM of fluorine (F ):\nD. 2.553 x 1024 molecules\nw 2\n2(19g/mol) = 38 g/mol\nGrams Moles Particles\nmolecules molecules (molecules)\n38 g F 1 mole F 6.023 x 1023 molecules F\n2 2 2\n38 g F 1 mole F\n2 2",
+    "question_page": 16,
+    "solution_page": 17,
+    "level": 2,
+    "learning_goals": [
+      "5"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 7,
+    "is_challenge": false,
+    "question_text": "How many fluorine atoms are there in a 38.00 g sample of\nfluorine gas?\n9\nF\nA. 2.289 x 1025 atoms\n19.000\nB. 6.023 x 1023 atoms\nC. 1.205 x 1024 atoms\nD. 2.553 x 1024 atoms",
+    "solution_text": "How many fluorine atoms are there in a 38.00 g sample of\nfluorine gas?\n9\nF\nA. 2.289 x 1025 atoms\n19.000\nF ➔ 2F\nB. 6.023 x 1023 atoms 2\nC. 1.205 x 1024 atoms\nM of fluorine (F ):\nD. 2.553 x 1024 atoms\nw 2\n2(19g/mol) = 38 g/mol\nGrams Moles Moles Particles\nYour answer will\nmolecules molecules (atoms) (atoms)\nhave units of\n38 g F 1 mole F 2 moles F atoms 6.023 x 1023 atoms F\n2 2\n38 g F 1 mole F 1 mole F atoms\n2 2",
+    "question_page": 18,
+    "solution_page": 19,
+    "level": 2,
+    "learning_goals": [
+      "5"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 8,
+    "is_challenge": false,
+    "question_text": "How many moles of sodium atoms are there in 6.3 grams of\nsodium carbonate?\n6 8 11\nA. 0.06 moles\nC O Na\nB. 0.12 moles 12.01 16.00 23.00\nC. 7.2 x 1022 moles\nD. 3.6 x 1022 moles",
+    "solution_text": "How many moles of sodium atoms are there in 6.3 grams of\nsodium carbonate?\nNa CO\n2 3 6 8 11\nA. 0.06 moles\nC O Na\nB. 0.12 moles 12.01 16.00 23.00\nC. 7.2 x 1022 moles\n1Na CO ➔ 2Na + 1C + 3O\n2 3\nD. 3.6 x 1022 moles\nM of Na CO :\nW 2 3\n2(23 g/mol) + (12.01 g/mol) + 3(16.00 g/mol)\n= 106 g/mol\nMoles\nNa atoms\nYour answer\nwill have\n1 mol Na CO 2 mol Na units of\n2 3\n6.3 g Na CO\nmoles of Na\n2 3\n106 g Na CO 1 mol Na CO\n2 3 2 3",
+    "question_page": 20,
+    "solution_page": 21,
+    "level": 2,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 9,
+    "is_challenge": false,
+    "question_text": "How many moles of ions are there in a sample that is 10 g of\nmagnesium phosphate, Mg (PO ) ?\n3 4 2\n8 12 15\nA. 5.0 moles O Mg P\n16.00 24.31 30.97\nB. 0.49 moles\nC. 0.19 moles\nD. 0.038 moles",
+    "solution_text": "How many moles of ions are there in a sample that is 10 g of\nmagnesium phosphate, Mg (PO ) ?\n3 4 2\n88 1122 1155\nA. 5.0 moles OO MMgg PP\n3 Mg2+ & 2 PO 3-\n4\n1166..0000 2244..3311 3300..9977\nB. 0.49 moles\nC. 0.19 moles 5 ions per 1 molecule\nD. 0.038 moles\nM of magnesium phosphate:\nw\n3(24.31) + 2(30.97) + 8(16.00) = 263 g/mol\nGrams Moles Moles\nmolecules molecules ions\nYour answer\n10 g Mg (PO ) 1 mole Mg (PO ) 5 moles ions will have\n3 4 2 3 4 2\nunits of\n263 g Mg (PO ) 1 mole Mg (PO )\n3 4 2 3 4 2",
+    "question_page": 22,
+    "solution_page": 23,
+    "level": 3,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 10,
+    "is_challenge": false,
+    "question_text": "How many C atoms are there in a sample of C H that\n3 8\ncontains 6.59 x 1026 H atoms?\n1 6\nA. 1.98 x 1027 C atoms\nH C\nB. 2.47 x 1026 C atoms 1.008 12.01\nC. 4.94 x 1026 C atoms\nD. 3.17 x 1024 C atoms",
+    "solution_text": "How many C atoms are there in a sample of C H that\n3 8\ncontains 6.59 x 1026 H atoms?\n1 6\nA. 1.98 x 1027 C atoms\nH C\nB. 2.47 x 1026 C atoms 1.008 12.01\nC. 4.94 x 1026 C atoms\nC H ➔ 3C + 8H\n3 8\nD. 3.17 x 1024 C atoms\nNOPE, can go directly from\nDo you need Avogadro’s H atoms ➔ C atoms\nmole ratio = atom ratio\nnumber in this calculation?\n1 mole H 3 mole C 6.022 x 1023 atoms C\n6.59 x 1026 H\n6.022 x 1023 H 8 mole H 1 mole C",
+    "question_page": 24,
+    "solution_page": 26,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 11,
+    "is_challenge": false,
+    "question_text": "How many oxygen atoms are found in a 33 g sample of\nmanganese(II) sulfite?\n8 16 25\nA. 1.44 x 1023 O atoms\nO S Mn\nB. 3.94 x 1023 O atoms\n16.00 32.07 54.94\nC. 4.44 x 1023 O atoms\nD. 7.22 x 1023 O atoms",
+    "solution_text": "How many oxygen atoms are found in a 33 g sample of\nmanganese(II) sulfite?\nMMaannggaanneessee((IIII)) ssuullffiittee::\nMMnnSSOO\n8 16 25\nA. 1.44 x 1023 O atoms 33\n➔ 1Mn + 1S + 3O O S Mn\nB. 3.94 x 1023 O atoms\n16.00 32.07 54.94\nC. 4.44 x 1023 O atoms\nD. 7.22 x 1023 O atoms\nM of MnSO :\nw 3\n54.94 g/mol + 32.07 g/mol + 3(16.00 g/mol) = 135.0 g/mol\nGrams Moles Moles Particles Your answer\nmolecules molecules O atoms (O atoms) will have\nunits of\n1 mole MnSO 3 mole O 6.022 x 1023 atoms O\n33 g MnSO\n3\n3\n135 g MnSO 1 mole MnSO 1 mole O\n3 3",
+    "question_page": 27,
+    "solution_page": 28,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 13,
+    "qnum": 0,
+    "is_challenge": true,
+    "question_text": "How many moles of sodium atoms are there in 4.4 grams of\nsodium carbonate?\n6 8 11\nA. 2.5 x 1022 moles\nC O Na\nB. 5.0 x 1022 moles 12.01 16.00 23.00\nC. 0.04 moles\nD. 0.08 moles\nE. 0.12 moles",
+    "solution_text": "How many moles of sodium atoms are there in 4.4 grams of\nsodium carbonate?\nNa CO\n6 8 11\n2 3\nA. 2.5 x 1022 moles\nC O Na\nB. 5.0 x 1022 moles 12.01 16.00 23.00\nC. 0.04 moles\n1Na CO ➔ 2Na + 1C + 3O\n2 3\nD. 0.08 moles\nM of Na CO :\nE. 0.12 moles\nW 2 3\n2(23 g/mol) + (12.01 g/mol) + 3(16.00 g/mol)\n= 106 g/mol\nMoles\nNa atoms\nYour answer\nwill have\n1 mol Na CO 2 mol Na units of\n2 3\n4.4 g Na CO\nmoles of Na\n2 3\n106 g Na CO 1 mol Na CO\n2 3 2 3",
+    "question_page": 31,
+    "solution_page": 32,
+    "level": null,
+    "learning_goals": null
+  },
+  {
+    "topic": 14,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "An aqueous solution containing 7.60 g of lead(II) nitrate is\nadded to an aqueous solution containing 7.39 g of potassium\nchloride. If the percent yield is 84.0%, how many grams of\nexcess reagent remain after the reaction is complete?\nA. 5.66 g\nB. 4.50 g\nC. 3.33 g\nD. 0.0604 g",
+    "solution_text": "An aqueous solution containing 7.60 g of lead(II) nitrate is\nadded to an aqueous solution containing 7.39 g of potassium\nchloride. If the percent yield is 84.0%, how many grams of\nexcess reagent remain after the reaction is complete?\nPb(NO ) (aq) + 2KCl(aq) ➔ PbCl (s) + 2KNO (aq)\n3 2 2 3\nPb(NOP)b(NO ) (aq) + 2KCl(aq) ➔ PbCKlC(ls) + 2KNO (aq)\n3 2 3 2 2 3\n7.6 g /(331.12 g/n) = 0.023 moles 7.39 g /(74.55g/n) = 0.099 moles\n0.023 n x (1/1) = 0.023 moles PbCl 0.099 n x (1/2) = 0.0495 moles PbCl\n2 2\nMoles KCl reacted = 0.023 x (2/1) x (84%/100%) = 0.0386 moles\nExcess KCl (moles) = 0.099 moles - 0.0386 moles = 0.0604 moles\nExcess KCl (grams) = 0.0604moles x (74.55 g/mol) = 4.50 grams KCl",
+    "question_page": 66,
+    "solution_page": 69,
+    "level": 4,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "Consider the reaction: 2H + O ➔ 2H O\n2 2 2\nIf 3 moles of H react with 2 moles of O , what is the maximum\n2 2\nnumber of moles of H O that can be produced?\n2\nA. 5 moles\nB. 4 moles\nC. 3 moles\nD. 2 moles",
+    "solution_text": "Consider the production of Iron from magnetite (Fe O ):\n3 4\nFe O (s) + 2CO(g) ➔ 3Fe(s) + 2CO (g) + O (g)\n3 4 2 2\nWhat mass of magnetite is required to obtain 4.0 kg of iron\nif the process only runs to 66% completion?\nWe know that: % yield = actual product (g)/theoretical yield (g) X 100%\nRearrange Eq: theoretical yield (g) = actual product (g)/ % yield X 100%\nFe O 3Fe(s)\n3 4\nTheoretical yield = (4000 g Fe)*100/(66) = 6060 g Fe\n6060 g Fe / (55.85 g/mol) = 108.5 moles Fe\n-\n108.5 n x (1/3) = 36.17 n Fe O\n3 4\n-\n36.17 n x ( 231.55 g/n) = 8375 g Fe O\n3 4",
+    "question_page": 37,
+    "solution_page": 73,
+    "level": 1,
+    "learning_goals": [
+      "2"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "How many moles of O are required for the complete\n2\ncombustion of 2.2 g of C H to form CO and H O?\n3 8 2 2\nA. 0.050 moles of O\n2\nB. 0.15 moles of O\n2\nC. 0.25 moles of O\n2\nD. 0.50 moles of O\n2",
+    "solution_text": "How many moles of O are required for the complete\n2\ncombustion of 2.2 g of C H to form CO and H O?\n3 8 2 2\nA. 0.050 moles of O\n2\nC H (g) + 5O (g) ➔ 3CO (g) + 4H O(g)\n3 8 2 2 2\nB. 0.15 moles of O\n2\nC. 0.25 moles of O M of C H\n2 w 3 8\n= 3(12.01 g/mol) + 8(1.008 g/mol)\nD. 0.50 moles of O\n2\n= 44.1 g/mol\nReaction C H + 5O ➔ 3CO + 4H O\n3 8 2 2 2\nIn the vessel 2.2 g - -\nbefore rxn\n2.2 g /( 44.1 g/n) ? -\n(no coefficient used)\n= 0.049 moles\nWhat reacted 0.049 moles 0.049 moles x (5/1) -\n= 0.25 moles",
+    "question_page": 39,
+    "solution_page": 42,
+    "level": 2,
+    "learning_goals": [
+      "3"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "Calculate the maximum amount of aluminum oxide (Al O ) that\n2 3\ncould be produced if 2.5 g of Al react with 2.5 g of oxygen .\nA. 4.7 g\nBefore doing any math:\nB. 5.3 g\nWe need to write a balanced equation for the reaction\nC. 7.4 g\nD. 9.4 g\nGrams Moles Moles Grams\nReactant Reactant Product Product",
+    "solution_text": "Consider the production of Iron from magnetite (Fe O ):\n3 4\nFe O (s) + 2CO(g) ➔ 3Fe(s) + 2CO (g) + O (g)\n3 4 2 2\nWhat mass of magnetite is required to obtain 5.0 kg of iron\nif the process only runs to 88% completion?\nPercent yield = (Actual yield/theoretical yield) * 100%\nFe O 3Fe\n3 4\nTheoretical yield = (5000 g Fe)*100%/88% = 5681 g Fe\n5681 g Fe / (55.85 g/mol) = 101.73 moles Fe\n101.73 n x (1/3) = 33.91 n Fe O -\n3 4\n-\n33.91 n x ( 231.55 g/n) = 7851 g Fe O\n3 4",
+    "question_page": 43,
+    "solution_page": 94,
+    "level": 3,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "For the reaction N + 3H ➔ 2NH ,\n2 2 3\nIf you react 21 g hydrogen with 56 g nitrogen, what is the\nmaximum number of grams of NH that can be formed?\n3\nA. 34 g\n7 1\nN H\nB. 68 g\n14.01 1.008\nC. 70 g\nD. 79 g",
+    "solution_text": "For the reaction N + 3H ➔ 2NH ,\n2 2 3\nIf you react 21 g hydrogen with 56 g nitrogen, what is the\nmaximum number of grams of NH that can be formed?\n3\n7 1\n21 g H / (2.016 g/mol) ➔ 10.41 moles H\n2 2\nN H\n56 g N / (28.02g/mol) ➔ 1.99 moles N\n2 2\n14.01 1.008\nRatio H to NH is 3:2\n2 3\n10.41 moles H * (2NH /3H ) = 6.94 moles NH\n2 3 2 3 N is the\n2\nRatio N to NH is 1:2\nlimiting\n2 3\n1.99 moles N * (2NH / 1N ) = 3.98 moles NH\nreagent\n2 3 2 3\n(3.98 moles NH ) * (17.034 g/mol) = 67.8 grams NH\n3 3",
+    "question_page": 47,
+    "solution_page": 49,
+    "level": 2,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "Consider the chemical reaction that occurs when iron(III) oxide\nreacts with carbon to produce iron metal and carbon dioxide:\n2Fe O + 3C ➔ 4Fe + 3CO If 13.00 g of Fe O reacts completely\n2 3 2 2 3\nwith 4.20 g of C, how much Fe will be formed?\nA. 26.08 g\nB. 19.54 g\nC. 9.05 g\nD. 4.52 g\nE. 2.26 g\nGrams Moles Moles Grams\nL.R L.R Product Product",
+    "solution_text": "Consider the chemical reaction that occurs when iron(III) oxide\nreacts with carbon to produce iron metal and carbon dioxide:\n2Fe O + 3C ➔ 4Fe + 3CO If 13.00 g of Fe O reacts completely\n2 3 2 2 3\nwith 4.20 g of C, how much Fe will be formed?\nFe O C\n2 3\n13 g /(159.7 g/mol) = 0.081 moles 4.2 g /(12.01 g/mol) = 0.350 moles\n0.081 n x (4/2) = 0.162 moles Fe 0.350 n x (4/3) = 0.467 moles Fe\nTheoretical Yield: (grams of product formed if all LR reacts)\n0.162 moles x (55.85 g/mol) = 9.05 grams Fe",
+    "question_page": 50,
+    "solution_page": 52,
+    "level": 2,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 7,
+    "is_challenge": false,
+    "question_text": "Consider the chemical reaction that occurs when sodium metal\nreacts with oxygen gas: 4Na(s) + O (g) ➔ 2Na O(s)\n2 2\nHow many grams of sodium oxide are produced when 5.00 g of\nsodium and 5.00 g of oxygen react and a 84% yield of sodium\noxide is obtained.\nA. 5.64 grams\nB. 6.73 grams\nC. 8.33 grams\nD. 9.92 grams\nGrams Moles Moles Grams % Yield\nL.R L.R Product Product Calculation",
+    "solution_text": "Consider the chemical reaction that occurs when sodium metal\nreacts with oxygen gas: 4Na(s) + O (g) ➔ 2Na O(s)\n2 2\nHow many grams of sodium oxide are produced when 5.00 g of\nsodium and 5.00 g of oxygen react and a 84% yield of sodium\noxide is obtained.\nNa O\n2\n5 g /(23 g/mol) = 0.217 moles 5 g /(32g/mol) = 0.16 moles\n0.217 n x (2/4) = 0.1085 moles Na O 0.16 n x (2/1) = 0.32 moles Na O\n2 2\nTheoretical Yield:\n0.1085 moles x (61.98 g/mol) = 6.73 grams Na O\n2\nActual yield = (6.73 g)*(84%/100%) = 5.64 g Na O\n2",
+    "question_page": 53,
+    "solution_page": 55,
+    "level": 3,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 8,
+    "is_challenge": false,
+    "question_text": "Consider the following chemical reaction:\nNaHCO (aq) + HCl(aq) ➔ H CO (aq)+ NaCl(aq)\n3 2 3\nHow many grams of hydrogen carbonate are produced if you react\n2.8 g of sodium hydrogen carbonate with 3.1 g of hydrochloric\nacid and the yield is 45%.\nA. 5.27 grams\nB. 2.37 grams\nC. 2.07 grams\nD. 0.93 grams\nGrams Moles Moles Grams % Yield\nL.R L.R Product Product Calculation",
+    "solution_text": "Consider the following chemical reaction:\nNaHCO (aq) + HCl(aq) ➔ H CO (aq)+ NaCl(aq)\n3 2 3\nHow many grams of hydrogen carbonate are produced if you react\n2.8 g of sodium hydrogen carbonate with 3.1 g of hydrochloric\nacid and the yield is 45%.\nNaHCO HCl\n3\n2.8 g /(84.007 g/mol) = 0.033 moles 3.1 g /(36.46g/mol) = 0.085 moles\n0.033 n x (1/1) = 0.033 moles H CO 0.085 n x (1/1) = 0.085 moles H CO\n2 3 2 3\nTheoretical Yield:\n0.033 moles x (62.03 g/mol) = 2.07 grams H CO\n2 3\nActual yield = (2.07 g)*(45%/100%) = 0.93 g H CO\n2 3",
+    "question_page": 56,
+    "solution_page": 58,
+    "level": 3,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 9,
+    "is_challenge": false,
+    "question_text": "When 2.5 moles of calcium carbonate is added to 4.8 moles of\nhydrochloric acid, calcium chloride, carbon dioxide, and water are\nproduced: CaCO (s) + 2HCl(aq) ➔ CaCl (aq) +H O(l) + CO (g)\n3 2 2 2\nWhich calculation represents the number of grams of calcium chloride\nthat are produced if the reaction proceeds with a 65% yield?\nA. 2.5 moles CaCl * 110.98 grams/mol * 0.65\n2\nB. 2.4 moles CaCl * 110.98 grams/mol * 0.65\n2\nC. 2.5 moles CaCl * 110.98 grams/mol / 0.65\n2\nD. 2.4 moles CaCl * 110.98 grams/mol / 0.65\n2",
+    "solution_text": "B. 2.4 moles CaCl * 110.98 grams/mol * 0.65\n2\nCaCO (s) + 2HCl(aq) ➔ CaCl (aq) +H O(l) + CO (g)\n3 2 2 2\n2.5 moles 4.8 moles 65% yield\n2.5 moles CaCO x (1/1) = 2.5 moles CaCl\n3 2\nHCl is the limiting reagent\n4.8 moles HCl x (1/2) = 2.4 moles CaCl and you can only make\n2\n2.4 moles of CaCl\n2\nMoles Moles Grams % Yield\nLR Product Product Calculation\n110.98 g CaCl 65 %\n2\n2.4 moles CaCl\n2\n1 mole CaCl 100%\n2",
+    "question_page": 59,
+    "solution_page": 61,
+    "level": 3,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "How many grams of sodium are in 23 g of sodium sulfate?\n8 11 16\nA. 32 g\nO Na S\nB. 7.45 g 16.00 22.99 32.06\nC. 6.57 g\nD. 3.73 g\nE. 0.710 g",
+    "solution_text": "How many grams of sodium are in 23 g of sodium sulfate?\nsodium sulfate: 8 11 16\nA. 32 g\nO Na S\nNa SO\n2 4\nB. 7.45 g 16.00 22.99 32.06\nM Na SO = = 142.04 g/mol\nw 2 4\nC. 6.57 g\n% Na = [2(22.99 g/mol)]/(142.04/mol)]* 100%\nD. 3.73 g\n= 32.37 %\nE. 0.710 g\nGrams Na = (% Na in Na SO ) x mass of Na SO\n2 4 2 4\n= (32.37/100) x 23 g\n= 7.45 g\nCan do this is a single step:\nGrams Na = [2(22.99 g/mol)]/(142.04/mol)] x 23g = 7.45g",
+    "question_page": 100,
+    "solution_page": 101,
+    "level": 2,
+    "learning_goals": [
+      "1"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "The percent water in the hydrate CuSO ·6H O is:\n4 2\n1 8 16 29\nA. 40.4%\nH O S Cu\nB. 6.73%\n1.008 16.00 32.06 63.55\nC. 9.60%\nD. 57.6%",
+    "solution_text": "The percent water in the hydrate CuSO ·6H O is:\n4 2\n1 8 16 29\nA. 40.4%\nH O S Cu\nB. 6.73%\n1.008 16.00 32.06 63.55\nC. 9.60%\n% Comp. = Mass of element in compound x 100%\nD. 57.6%\nTotal mass of compound\nM H O = 18.02 g/mol\nw 2\nM CuSO 6H O\nw 4 2\n= 63.55 g/mol + 32.06 g/mol + 4(16.00 g/mol) + 6(18.02 g/mol)\n= 267.73 g/mol\n% H O = [6(18.02 g/mol)]/(267.73/mol)]* 100 %\n2\n= 40.38 %",
+    "question_page": 102,
+    "solution_page": 103,
+    "level": 1,
+    "learning_goals": [
+      "1"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "Combustion of a 0.9835 g sample of a compound containing\nonly C, H, and O produced 1.900 g of CO and 1.072 g of H O.\n2 2\nWhat is the empirical formula of the compound?\nA. C H O\n2 5\nB. C H O\n2 5 2\nC. C H O\n4 10 2\nD. C H O\n4 11 2",
+    "solution_text": "Combustion of a 0.9835 g sample of a compound containing\nonly C, H, and O produced 1.900 g of CO and 1.072 g of H O.\n2 2\nWhat is the empirical formula of the compound?\nC H O + O ➔ CO + H O\nx y z 2 2 2\n= 0.518 g C = 0.120 g H 0.345 g O\n12.01 g/mol 1.008 g/mol 16.00 g/mol\nC H O\n0.0432 0.120 0.0216\n0.0216 0.0216 0.0216\nC H O x 2 C H O\n2.00 5.51 1 4 11 2",
+    "question_page": 104,
+    "solution_page": 107,
+    "level": 3,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "An unknown compound has the formula C H O . When 0.200 g of\nx y z\nthe compound is burned in oxygen you isolate 0.293 g of CO and\n2\n0.120 g of H O. If the experimentally determined molar mass of\n2\nthe compound is 60.07 g/mol, what is its molecular formula?\nA. CH O\n2\nB. C H O\n2 4 2\nC. C H O\n2 2 2\nD. C H O\n2 2",
+    "solution_text": "An unknown compound has the formula C H O . When 0.200 g of the compound is burned\nx y z\nin oxygen you isolate 0.293 g of CO and 0.120 g of H O. If the experimentally determined\n2 2\nmolar mass of the compound is 60.07 g/mol, what is its molecular formula?\nAtom C H O\nMass (12.01/44.01) x 0.293 g (2.016/18.02) x 0.120 g 0.2 - 0.07996 - 0.01343\n(grams) = 0.07996 = 0.01343 = 0.10661\n0.07996/12.01 0.01343/1.008 0.10661/16.00\nMoles\n= 0.00666 = 0.01332 = 0.00666\n0.00666/0.00666 0.01332/0.00666 0.00666/0.00666\nEF mole\n= 1 = 2.000 = 1.000\nRatio\n1 2 1\nCH O\n2 X 2\nMass of EF: 12.01 + 2(1.008) + 16.00 = 30.026 g/mol\n= C H O\n2 4 2\n(60.07 g/mol)/(30.026 g/mol) = 2",
+    "question_page": 108,
+    "solution_page": 110,
+    "level": 3,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "Prior to their phaseout in the 1980s, chemicals containing lead were\ncommonly added to gasoline as anti-knocking agents. A 8.943 g sample\nof one such additive containing only lead, carbon and hydrogen was\nburned in an oxygen rich environment. The products of the\ncombustion were 9.795 g of CO and 5.035 g of H O. The sum of the\n2 2\nsubscripts in the empirical formula of the lead additive is:\nA. 36\nB. 30\nC. 29\nD. 26",
+    "solution_text": "A 8.943 g sample containing only lead, carbon and hydrogen was\nburned in an oxygen rich environment. The products of the\ncombustion were 9.795 g of CO and 5.035 g of H O.\n2 2\nAtom Pb C H\nMass 8.943 – 2.673 – 0.563 (12.01/44.01) x 9.795g (2.016/18.015) x 5.035 g\n(grams) = 5.707 = 2.673 = 0.563\n5.707/207.2 2.673/12.01 0.563/1.008\nMoles\n= 0.028 = 0.223 = 0.559\n0.028/0.028 0.223/0.028 0.559/0.028\nEF mole\n= 1 = 7.96 = 19.96\nRatio\n1 8 20\n1 + 8 + 20 = 29",
+    "question_page": 111,
+    "solution_page": 113,
+    "level": 3,
+    "learning_goals": [
+      "4"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "Carnotite (K (UO ) (VO ) ) and is one of 3 common vanadium\n2 2 2 4 2\nores. Vanadium metal can be extracted from this ore as pure\nvanadium. If you start with 985 g of carnotite, what is the\nmaximum number of grams of V that can be extracted?\nA. 59.2 grams\nB. 98.5 grams\nC. 118 grams\nD. 120 grams\nE. 130 grams",
+    "solution_text": "Carnotite (K (UO ) (VO ) ) and is one of 3 common vanadium\n2 2 2 4 2\nores. Vanadium metal can be extracted from this ore as pure\nvanadium. If you start with 985 g of carnotite, what is the\nmaximum number of grams of V that can be extracted?\nA. 59.2 grams\n% V in K (UO ) (VO ) :\nB. 98.5 grams\n2 2 2 4 2\n=[(#V)(M V)/M K (UO ) (VO ) ] x 100%\nC. 118 grams w w 2 2 2 4 2\n= [2(50.94)/(848.12 g/mol)] x 100%\nD. 120 grams\n= 12.01%\nE. 130 grams\nMass of V that can be extracted:\n= (12.01/100) x (985 g)\n= 118.32 g",
+    "question_page": 114,
+    "solution_page": 115,
+    "level": 3,
+    "learning_goals": [
+      "2"
+    ]
+  },
+  {
+    "topic": 14,
+    "qnum": 0,
+    "is_challenge": true,
+    "question_text": "Once vanadium has been extracted from vanadinite ore it\ncan be used to produce a variety of pure vanadium oxides.\nOne such oxide was found to contain 56.02% vanadium.\nWhat is the empirical formula of this oxide?\nSpecies V O\n% 56.02 % 100 - 56.02 = 43.98%\nGrams 56.02 43.98\n56.02/(50.94 g/mol) 43.98/(16 g/mol)\nMoles\n= 1.09 mol = 2.75 mol\n1.09/1.09 2.75/1.09\nMole Ratio\nx 2\n= 1 = 2.52\nV O\n2 5",
+    "solution_text": null,
+    "question_page": 98,
+    "solution_page": null,
+    "level": null,
+    "learning_goals": null
+  },
+  {
+    "topic": 16,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "Based on the ΔH values shown in the table below,\nvaporization\nwhich of the following compounds has the strongest\nintermolecular forces (IMF’s)?\nSubstance ΔH\nvap\nArgon (Ar) 6.3 kJ/mol\nA. Argon\nBenzene (C H ) 31 kJ/mol\nB. Benzene\n6 6\nEthanol (C H OH 39.3 kJ/mol\nC. Ethanol\n2 5\nMethane (CH ) 9.2 kJ/mol\nD. Water\n4\nWater (H O ) 40.8 kJ/mol\nE. Methane\n2",
+    "solution_text": "Based on the ΔH values shown in the table below,\nvaporization\nwhich of the following compounds has the strongest\nintermolecular forces (IMF’s)?\nSubstance ΔH\nvap\nArgon (Ar) 6.3 kJ/mol\nA. Argon\nBenzene (C H ) 31 kJ/mol\nB. Benzene\n6 6\nEthanol (C H OH 39.3 kJ/mol\nC. Ethanol\n2 5\nMethane (CH ) 9.2 kJ/mol\nD. Water\n4\nWater (H O ) 40.8 kJ/mol\nE. Methane\n2\nΔH ➔ energy required to vaporize a substance\nvap\nHigher ΔH corresponds to more energy required to go\nvap\nfrom liquid to gas ➔ IMFs must be stronger",
+    "question_page": 139,
+    "solution_page": 140,
+    "level": 2,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "Napthalene (C H ) is an organic molecule that has only LDF. How\n10 8\nis it possible then that napthalene is a solid at room temperature,\nbut water is a liquid?\nA. Molecules with stronger IMF always have\nhave higher boiling points.\nB. Water molecules can form H-bonds so water must have stronger\nIMF than those of napthalene.\nC. Napthalene is a large planar molecule and so its LDF’s are stronger\nthan the H-bond in water.\nD. Molecules with stronger IMF are more likely to be solids at room\ntemperature.",
+    "solution_text": "Napthalene (C H ) is an organic molecule that has only LDF. How\n10 8\nis it possible then that napthalene is a solid at room temperature,\nbut water is a liquid?\nA. Molecules with stronger IMF always have\nhave higher boiling points.\nB. Water molecules can form H-bonds so water must have stronger\nIMF than those of napthalene.\nC. Napthalene is a large planar molecule and so its LDF’s are stronger\nthan the H-bond in water.\nD. Molecules with stronger IMF are more likely to be solids at room\ntemperature.\nNapthalene is a large planar molecule with a flat surface that allows for\ntwo molecules to interact in many positions and at a very close range!",
+    "question_page": 141,
+    "solution_page": 142,
+    "level": 3,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 9,
+    "is_challenge": false,
+    "question_text": "When an unknown hydrate of Na CO is heated until all the\n2 3\nwater is removed, it looses 54.3% of its mass. What was the\nformula of the hydrate before it was heated?\nA. Na CO\n2 3\nB. Na CO 1H O\n2 3 2\nC. Na CO 5H O\n2 3 2\nD. Na CO 7H O\n2 3 2",
+    "solution_text": "When an unknown hydrate of Na CO is heated until all the\n2 3\nwater is removed, it looses 54.3% of its mass. What was the\nformula of the hydrate before it was heated?\nNa CO XH O What is X?\nA. Na CO 2 3 2\n2 3 Mass of XH O is 54.3%\n2\nB. Na CO 1H O\n2 3 2 Mass of Na CO is (100 – 54.3) = 45.7%\n2 3\nC. Na CO 5H O\nM (Na CO ) = 106.01 g/mol\n2 3 2\nw 2 3\nD. Na CO 7H O M (H O) = 18.02 g/mol\n2 3 2 w 2\nMass of XH O = total - Na CO mass\n2 2 3\n45.7 % = 106.01 g/mol\n= 231.95 – 106.01\n100% = X\n= 125.96 g/mol\nX = total mass\nMol of H O = mass/Mw\n2\n= 106.01g/mol x (100/45.7)\n= 125.96/18.02\n= 231.95 g/mol\nX = 6.99 = 7",
+    "question_page": 127,
+    "solution_page": 130,
+    "level": 4,
+    "learning_goals": [
+      "1"
+    ]
+  },
+  {
+    "topic": 15,
+    "qnum": 12,
+    "is_challenge": false,
+    "question_text": "Vanadinite (Pb (VO ) Cl) and is one of the main industrial ores\n5 4 3\nthat are used for the extraction of elemental vanadium.\nIf you start with 1.21 kg of Pb (VO ) Cl, what is the maximum\n5 4 3\nnumber of grams of V that can be extracted from this ore.\nA. 43.2 grams\nB. 130 grams\nC. 155 grams\nD. 173 grams",
+    "solution_text": "Vanadinite (Pb (VO ) Cl) and is one of the main industrial ores\n5 4 3\nthat are used for the extraction of elemental vanadium.\nIf you start with 1.21 kg of Pb (VO ) Cl, what is the maximum\n5 4 3\nnumber of grams of V that can be extracted from this ore.\nA. 43.2 grams\n% V in Pb (VO ) Cl:\nB. 130 grams\n5 4 3\n=[(#V)(M V)/M Pb (VO ) Cl ] x 100%\nC. 155 grams\nw w 5 4 3\n= 3(50.94)/(1416.27 g/mol) x 100%\nD. 173 grams\n= 10.79%\nMass of V that can be extracted:\n= (10.79/100) x (1.21 kg) * (1000g/1kg)\n= 130.5 g",
+    "question_page": 131,
+    "solution_page": 132,
+    "level": 3,
+    "learning_goals": [
+      "1"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "How many of the following molecules exhibit H-bonds, how many\nexhibit dipole-dipole interactions and how many exhibit London\nDispersion forces respectively?\nCH CH OH H S NH\n4 3 2 3\nA. 1, 2 and 4\nB. 2, 2 and 4\nC. 2, 3 and 4\nD. 2, 0 and 2\nE. 1, 2 and 1",
+    "solution_text": "How many of the following molecules exhibit H-bonds, how many\nexhibit dipole-dipole interactions and how many exhibit London\nDispersion forces respectively?\nCH CH OH H S NH\n4 3 2 3\nLDF\nLDF LDF\nLDF\nA. 1, 2 and 4 D-D D-D\nD-D\nH-Bonds\nB. 2, 2 and 4 H-Bonds\nC. 2, 3 and 4\nIMF are not mutually exclusive! Just because\nD. 2, 0 and 2\nyou have stronger forces like H-bonds,\nE. 1, 2 and 1 doesn’t mean the D-D and LDFs go away",
+    "question_page": 135,
+    "solution_page": 136,
+    "level": 3,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "Which of the following has a higher boiling point and why?\nDimethyl ether (CH OCH ) Ethanol (CH CH OH)\n3 3 3 2\nA. Dimethyl ether because it has LDF, dipole-dipole interactions\nand hydrogen bonds\nB. Dimethyl ether because it has only LDF and dipole-dipole\ninteractions\nC. Ethanol because it has LDF, dipole-dipole interactions and\nhydrogen bonds\nD. Ethanol because it has only LDF and dipole-dipole interactions",
+    "solution_text": "Which of the following has a higher boiling point and why?\nR\nR A\nA L\nL O\nO\nP\nP\nDimethyl ether (CH OCH ) Ethanol (CH CH OH)\n3 3 3 2\nA. Dimethyl ether because it has LDF, dipole-dipole interactions\nand hydrogen bonds\nB. Dimethyl ether because it has only LDF and dipole-dipole\ninteractions As IMF’s get stronger bp increases.\nC. Ethanol because it has LDF, dipole-dipole interactions and\nhydrogen bonds\nD. Ethanol because it has only LDF and dipole-dipole interactions",
+    "question_page": 137,
+    "solution_page": 138,
+    "level": 2,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "Consider the molecules: H O, CO , NH , CCl . The boiling points of\n2 2 3 4\nthese four molecules from lowest boiling point to highest boiling\npoint are -78°C, -34°C, 76°C, 100°C. Place these molecules in\norder from highest boiling point to lowest boiling point.\n(HINT: Both NH and CO are gases at room temperature.)\n3 2\nA. H O, CCl , NH , CO\n2 4 3 2\nB. H O, NH , CCl , CO\n2 3 4 2\nC. NH , CO , CCl , H O\n3 2 4 2\nD. H O, CCl , CO NH\n2 4 2, 3",
+    "solution_text": "Consider the molecules: H O, CO , NH , CCl . The boiling points of\n2 2 3 4\nthese four molecules from lowest boiling point to highest boiling\npoint are -78°C, -34°C, 76°C, 100°C. Place these molecules in\norder from highest boiling point to lowest boiling point.\n(HINT: Both NH and CO are gases at room temperature.)\n3 2\nYou know the bp of H O is 100 so\n2\nA. H O, CCl , NH , CO\nyou know H O must be first.\n2 4 3 2\n2\nB. H O, NH , CCl , CO\n2 3 4 2\nNH and CO are gases, so they\n3 2\nC. NH , CO , CCl , H O\nmust have weaker IMF than CCl\n3 2 4 2\n4\nD. H O, CCl , CO NH which is a liquid.\n2 4 2, 3\nNH is polar and forms hydrogen\n3\nbonds, whereas CO only has LDF.\n2",
+    "question_page": 143,
+    "solution_page": 144,
+    "level": 4,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "Pure samples of which of the following compounds will\nexhibit hydrogen bonding?\nI. CH OH II. CH NO III. CH CN\n3 3 3 3\nA. I only\nB. I and II only\nC. II and III only\nD. I, II and III",
+    "solution_text": "Pure samples of which of the following compounds will\nexhibit hydrogen bonding?\nI. CH OH II. CH NO III. CH CN\n3 3 3 3\nA. I only\nB. I and II only\nC. II and III only\nD. I, II and III\nIn order to form a hydrogen bond, a molecule must have a\nhydrogen attached to one of the following: O, N or F.",
+    "question_page": 145,
+    "solution_page": 146,
+    "level": 3,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 7,
+    "is_challenge": false,
+    "question_text": "Which one of the following molecules is predicted to have\nthe lowest boiling point?\nA. H S\n2\nB. PH\n3\nC. HCl\nD. SiH\n4\nE. H O\n2",
+    "solution_text": "Which one of the following molecules is predicted to have\nthe lowest boiling point?\nA. H S\n2\nB. PH\n3\nAs BP increases IMF must get stronger.\nC. HCl\nSiH is the only non-polar molecule thus it has the\nD. SiH\n4\n4\nweakest IMFs (only LDFs).\nE. H O\n2\nMake sure you can draw all the Lewis\nstructures and predict the polarity.",
+    "question_page": 147,
+    "solution_page": 148,
+    "level": 2,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "Calculate the volume of helium in a 2-mole helium balloon\nthat floats up into the atmosphere and is left inflated to a\ntotal pressure of 1.5 atm at a temperature of -73 deg C.\nA. 37.9 L\nB. 22.1 L\nC. 7.98 L\nD. 0.045 L",
+    "solution_text": "Calculate the volume of helium in a 2-mole helium balloon\nthat floats up into the atmosphere and is left inflated to a\ntotal pressure of 1.5 atm at a temperature of -73 deg C.\nPV = nRT\nA. 37.9 L\nSINGLE STATE\nB. 22.1 L\nPROBLEM\nT: Kelvin\nC. 7.98 L\nP: atm\nD. 0.045 L R = 0.082 L-atm/mol-K\nV = nRT/P = 2.0 mol x (0.082 L-atm/mol-K) x (-73 + 273)K\n1.5 atm\n= 22.1 L",
+    "question_page": 185,
+    "solution_page": 186,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "At what values of temperature and pressure would real\ngases behave more like ideal gases?\nA. Low pressure and low temperature\nB. High pressure and high temperature\nC. Low pressure and high temperature\nD. High pressure and low temperature",
+    "solution_text": "How many moles of nitrogen will be needed to react\nwith 1.5 L of H gas measured at 20°C and 0.95 atm?\n2\nA. 0.059 moles 3H (g) + N (g) ➔ 2NH (g)\n2 2 3\nB. 0.020 moles\nC. 0.18 moles PV = nRT Find moles of H first\n2\nD. 0.87 moles\nn = PV/RT\n= (0.95atm) (1.5 L)\n(0.082 L-atm/mol-K) (20 + 273)K\n= 0.059 moles H\n2\n0.059 mol H x (1 mol N /3 mol H ) = 0.020 moles N\n2 2 2 2",
+    "question_page": 154,
+    "solution_page": 188,
+    "level": 2,
+    "learning_goals": [
+      "1"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "What volume of O is needed to completely react with\n2\n28.0 g NH at 24°C and 0.950 atm to form NO and water?\n3\nA. 4.26 L\nB. 42.3 L\nC. 46.1 L\nD. 52.8 L",
+    "solution_text": "What volume of O is needed to completely react with\n2\n28.0 g NH at 24°C and 0.950 atm to form NO and water?\n3\nA. 4.26 L\n4NH (g) + 5O (g) ➔ 4NO(g) + 6H O(g)\n3 2 2\nB. 42.3 L\nFind moles of O using Stoich calcs first\nC. 46.1 L 2\n28 g x (1 mol/(17 g/mol) = 1.65 moles NH\nD. 52.8 L\n3\n1.65 moles NH x (5 mol O /4 mol NH )\n3 2 3\nNow find volume of O\n= 2.06 moles O\n2\n2\nPV = nRT\nV = nRT/P\n= (2.06 moles)(0.082 L-atm/mol-K)(24 + 273 K)/0.95 atm\n= 52.8 L",
+    "question_page": 189,
+    "solution_page": 190,
+    "level": 3,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "Determine the molecular weight of a gas that has a density\nof 5.75 g/L at STP.\nA. 3.90 g/mol\nB. 129 g/mol\nC. 141 g/mol\nD. 578 g/mol",
+    "solution_text": "Determine the molecular weight of a gas that has a\ndensity of 5.75 g/L at STP.\nSTP: 1atm, 273K\nA. 3.90 g/mol\nPV = nRT\nn = m/M\nw\nB. 129 g/mol\nPV = RT(m/M )\nC. 141 g/mol\nw\nD. 578 g/mol M = RTm/PV\nw\nM = (RT/P)(m/V) Density = mass/Vol\nw\nM = [(RT)/P](Density)\nw\nM = [(0.082 L-atm/mol-K)(273 K)/(1 atm)](5.75 g/L)\nw\n= 129 g/mol",
+    "question_page": 191,
+    "solution_page": 192,
+    "level": 3,
+    "learning_goals": [
+      "11"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "Determine the density of a sample of unknown gas with\na molar mass of 129 g/mol at STP.\nA. 0.174 g/L\nB. 5.76 g/L\nC. 8.64 g/L\nD. 576 g/L",
+    "solution_text": "Determine the density of a sample of unknown gas with\na molar mass of 129 g/mol at STP.\nSTP: 1atm, 273K\nA. 0.174 g/L\nPV = nRT\nn = m/M\nB. 5.76 g/L w\nPV = RT(m/M )\nw\nC. 8.64 g/L\nDensity = mass/Vol\nP = (RT/M )(m/V)\nD. 576 g/L w\nP = (RT/M )(density)\nw\nDensity = PM /RT\nw\nDensity = (1)(129) /(0.082)(273)\n= 5.76 g/L",
+    "question_page": 193,
+    "solution_page": 194,
+    "level": 3,
+    "learning_goals": [
+      "11"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "Consider a sealed sample of gas at 33.0C, 744 mm Hg, and\n450 mL. If the pressure is decreased to 725 mm Hg and the\ntemperature is raised to 66.0C, what is the new volume of\nthe gas?\nA. 512 mL\nB. 124 mL\nC. 417 mL\nD. 483 mL\nCHANGE in the conditions:\nDouble State Problem",
+    "solution_text": "Consider a sealed sample of gas at 33.0C, 744 mm Hg, and\n450 mL. If the pressure is decreased to 725 mm Hg and the\ntemperature is raised to 66.0C, what is the new volume of\nthe gas?\nPV = nRT\nDOUBLE STATE\nA. 512 mL\nPROBLEM\nR is a constant so\nB. 124 mL\nit is not included!\nC. 417 mL P V = n T\nT must be in\ni i i i\nD. 483 mL Kelvin\nP V = n T\nf f f f\nV = [(P V )/(P )] x (T /T )\nf i i f f i\nUnits cancel so\n= [(744)(450)/(725)] x [(273+66)/(273+33)]\ncan keep mm Hg.\nT must be in K!!\n= 511.58 mL",
+    "question_page": 199,
+    "solution_page": 200,
+    "level": 2,
+    "learning_goals": [
+      "10"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 7,
+    "is_challenge": false,
+    "question_text": "A 1.9 mol sample of gas in a rigid flask at 21°C and 697 mm Hg\nis opened to the atmosphere and more gas is added to the\nflask. The pressure after the addition of gas is 795 mm Hg and\nthe temperature is 26°C. How many moles of gas have been\nadded to the container?\nA. 0.23\nB. 1.63\nC. 1.75\nD. 2.13\nE. 2.9",
+    "solution_text": "A 1.9 mol sample of gas in a rigid flask at 21°C and 697 mm Hg\nis opened to the atmosphere and more gas is added to the\nflask. The pressure after the addition of gas is 795 mm Hg and\nthe temperature is 26°C. How many moles of gas have been\nadded to the container?\nP V = n T\nA. 0.23\ni i i i\nDOUBLE STATE\nB. 1.63 P V = n T\nPROBLEM\nf f f f\nC. 1.75\nn = [(n T )/(T )] x (P /P )\nD. 2.13\nf i i f f i\n= [(1.9)(21+273)/(26+273)] x [(795)/(697)]\nE. 2.9\n= 2.13 moles at the end\nMoles added = n - n = 2.13 - 1.9 = 0.23 moles\nf i",
+    "question_page": 201,
+    "solution_page": 202,
+    "level": 3,
+    "learning_goals": [
+      "10"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 14,
+    "is_challenge": false,
+    "question_text": "The boiling point of water is about 200°C higher than one\nwould predict from the boiling points of hydrogen sulfide and\nhydrogen selenide. One may explain this apparent anomaly\nby which of the following?\nA. The H-O covalent bond is much stronger than the H-S\nand H-Se bonds\nB. Water has the lowest molecular weight\nC. The intermolecular attractive forces are much greater\nin water than in hydrogen sulfide and hydrogen\nselenide.\nD. Water is less polar than hydrogen sulfide and\nhydrogen selenide.",
+    "solution_text": "The boiling point of water is about 200°C higher than one\nwould predict from the boiling points of hydrogen sulfide and\nhydrogen selenide. One may explain this apparent anomaly\nby which of the following?\nA. The H-O covalent bond is much stronger than the\nH-S and H-Se bonds\nB. Water has the lowest molecular weight\nC. The intermolecular attractive forces are much\ngreater in water than in hydrogen sulfide and\nhydrogen selenide. Hydrogen bonding!\nD. Water is less polar than hydrogen sulfide and\nhydrogen selenide.",
+    "question_page": 178,
+    "solution_page": 179,
+    "level": 2,
+    "learning_goals": [
+      "12"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 16,
+    "is_challenge": false,
+    "question_text": "Which region on the phase diagram below corresponds to the\nsolid phase?\nD\nC\nB\nA\nTemperature (cid:0)\nerusserP\nA. A\nB. B\nC. C\nA\nD. D\nB\nC\nD",
+    "solution_text": null,
+    "question_page": 172,
+    "solution_page": null,
+    "level": 1,
+    "learning_goals": [
+      "3"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 17,
+    "is_challenge": false,
+    "question_text": "Consider the heating curve below for substance X. At 75°C\nsubstance X exists as a _______________.\nA. Solid\nB. liquid\n120\nC. gas\nD. liquid and\n90\nsolid\nE. liquid and\ngas 60\n30\nTime (minutes)\n)C°(\nerutarepmeT",
+    "solution_text": null,
+    "question_page": 174,
+    "solution_page": null,
+    "level": 1,
+    "learning_goals": [
+      "3"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 13,
+    "is_challenge": false,
+    "question_text": "Which of the following statements is not characteristic of a\nhydrogen bond?\nA. The other atom involved in the hydrogen bond (not\nthe hydrogen atom) must be a very electronegative\natom that is attached to another hydrogen atom.\nB. The other atom involved in the hydrogen bond (not\nthe hydrogen atom) always possesses at least one\nlone pair of electrons.\nC. The hydrogen atom involved must be covalently\nbonded to a very electronegative atom.\nD. Hydrogen bonds are typically weaker than ionic or\ncovalent bonds.",
+    "solution_text": "Which of the following statements is not characteristic of a\nhydrogen bond?\nElectronegative atom in H-bond: N, O or F\nA. The other atom involved in the hydrogen bond (not\nthe hydrogen atom) must be a very electronegative\natom that is attached to another hydrogen atom.\nB. The other atom involved in the hydrogen bond (not\nthe hydrogen atom) always possesses at least one\nlone pair of electrons.\nC. The hydrogen atom involved must be covalently\nbonded to a very electronegative atom.\nD. Hydrogen bonds are typically weaker than ionic or\ncovalent bonds.",
+    "question_page": 176,
+    "solution_page": 177,
+    "level": 2,
+    "learning_goals": [
+      "11"
+    ]
+  },
+  {
+    "topic": 16,
+    "qnum": 0,
+    "is_challenge": true,
+    "question_text": "Octane (C H ) is a straight chain of carbon atoms with no dipole\n8 18\nmoment and a boiling point of 125oC. Water has a dipole moment,\ncan hydrogen bond and has a boiling point of 100oC. The difference\nbetween these two boiling points can best be rationalized by:\nA. Intermolecular forces between molecules with dipole moments are\ngreater than between molecules with no dipole moment\nB. Hydrogen bonding is a strong intermolecular force\nC. London dispersion forces are weak but there are many LDFs in\noctane so the net IMF in C H is greater than the net IMF in H O\n8 18 2\nD. London dispersion forces are strong and so the boiling point of\noctane is greater than the boiling point of water\nE. There is no trend, this is a magical mystery of science",
+    "solution_text": "http://tenerife-training.net/Tenerife-News-Cycling-Blog/wp-content/uploads/2008/03/octane-molecule-3d-model-petrol.png\nOctane (C H ) is a straight chain of carbon atoms with no dipole\n8 18\nmoment and a boiling point of 125oC. Water has a dipole moment,\ncan hydrogen bond and has a boiling point of 100oC. The difference\nbetween these two boiling points can best be rationalized by:\nA. Intermolecular forces between molecules with dipole moments are\ngreater than between molecules with no dipole moment\nB. Hydrogen bonding is a strong intermolecular force\nC. London dispersion forces are weak but there are many LDFs in\noctane so the net IMF in C H is greater than the net IMF in H O\n8 18 2\nD. London dispersion forces are strong and so the boiling point of\noctane is greater than the boiling point of water\nE. There is no trend, this is a magical mystery of science\nhttp://upload.wikimedia.org/wikipedia/commons/f/fa/Water-3D-balls-A.png",
+    "question_page": 181,
+    "solution_page": 182,
+    "level": null,
+    "learning_goals": null
+  },
+  {
+    "topic": 17,
+    "qnum": 8,
+    "is_challenge": false,
+    "question_text": "Which of the following samples contains molecules\nwith the greatest average kinetic energy?\nA. 1.0 moles of N at 580 K\n2\nB. 1.0 moles of CO at 140 K\nC. 1.0 moles of N O at 298 K\n2\nD. 1.0 moles of CO at 440 K\n2",
+    "solution_text": "Which of the following samples contains molecules\nwith the greatest average kinetic energy?\nA. 1.0 moles of N at 580 K\n2\nB. 1.0 moles of CO at 140 K\nC. 1.0 moles of N O at 298 K\n2\nD. 1.0 moles of CO at 440 K\n2\nKE is based only on the temperature of the gas\nThe higher the T the higher the KE",
+    "question_page": 204,
+    "solution_page": 205,
+    "level": 3,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 9,
+    "is_challenge": false,
+    "question_text": "Consider 1L gaseous samples of He (4amu), Ne (20amu),\nand Ar (40amu). If each sample is at STP (273K, 1 atm).\nWhich gas will have the highest molar kinetic energy?\nA. He\nB. Ne\nC. Ar\nD. They all have the same energy",
+    "solution_text": "Consider 1L gaseous samples of He (4amu), Ne (20amu),\nand Ar (40amu). If each sample is at STP (273K, 1 atm).\nWhich gas will have the highest molar kinetic energy?\nA. He\nB. Ne\nC. Ar\nD. They all have the same energy\nKE = 3/2RT\nThe KE of a gas = the internal energy of the system\nAll at the same temperature so all have the same KE",
+    "question_page": 206,
+    "solution_page": 207,
+    "level": 1,
+    "learning_goals": [
+      "15"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 10,
+    "is_challenge": false,
+    "question_text": "If the temperature of a gas is raised from 100 °C to 200 °C,\nthe average kinetic energy of the gas will ____.\nA. increase by a factor of 2\nB. increase by a factor of 1.27\nC. increase by a factor of 100\nD. decrease by a factor of 2\nE. decrease by a factor of 100",
+    "solution_text": "If the temperature of a gas is raised from 100 °C to 200 °C,\nthe average kinetic energy of the gas will ____.\nA. increase by a factor of 2\nKE = 3/2RT\nB. increase by a factor of 1.27\nC. increase by a factor of 100 R is a constant\nD. decrease by a factor of 2 3/2 is a constant\nE. decrease by a factor of 100\nDOUBLE STATE\nPROBLEM\nKE = T\nKE = KE (T /T )\ni i\nf i f i\nKE = T\nf f\n(T /T ) = (473)/(373)\nFACTOR\nf i\n= 1.27\nT increases so KE increases",
+    "question_page": 208,
+    "solution_page": 209,
+    "level": 3,
+    "learning_goals": [
+      "14"
+    ]
+  },
+  {
+    "topic": 17,
+    "qnum": 0,
+    "is_challenge": true,
+    "question_text": "Consider a rigid tank containing both HF and HBr gases. If this\ntank develops a leak, what is the ratio of the rate of effusion\nof HF to the rate of effusion of HBr at constant T?\nA. 4.04\nB. 0.247\nC. 2.01\nD. 0.497",
+    "solution_text": "Consider the following gas reaction that runs with 100%\nyield: 1 2CO(g) + O (g) → 2CO (g)\n2 2\nHow many liters of oxygen gas do you need to completely\nreact with 54 L of carbon monoxide gas at STP?\n2\nPV = nRT n = PV/RT\nA. 22 L\n= 1 atm(54 L)/(0.082(273K))\nB. 27 L\n= 2.41 moles\nC. 54 L\nD. 81 L 2.41 moles CO x (1 mol O /2 mol CO)\n3\n2\nE. 108 L = 1.21 moles O\n2\n4\nPV = nRT V = nRT/P\n= 1.21 moles(0.082)(273K)/1 atm\n= 27 L",
+    "question_page": 213,
+    "solution_page": 212,
+    "level": null,
+    "learning_goals": null
+  },
+  {
+    "topic": 18,
+    "qnum": 1,
+    "is_challenge": false,
+    "question_text": "Give the complete ionic equation for the reaction that occurs\nwhen aqueous solutions of lithium sulfide and copper (II)\nnitrate are mixed:\nA. Li+(aq) + SO 2-(aq) + Cu+(aq) + NO -(aq)\n4 3\n➔ CuS(s) + Li+ (aq) + NO (aq)\n3\nB. Li+(aq) + S-(aq) + Cu+(aq) + NO -(aq)\n3\n➔ CuS(s) + LiNO (aq)\n3\nC. 2Li+(aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ Cu2+(aq) + S2-(aq) + 2LiNO (s)\n3\nD. 2Li+ (aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ CuS(s) + 2Li+ (aq) + 2NO -(aq)\n3",
+    "solution_text": "Give the complete ionic equation for the reaction that occurs\nwhen aqueous solutions of lithium sulfide and copper (II)\nnitrate are mixed:\nA. Li+(aq) + SO 2-(aq) + Cu+(aq) + NO -(aq)\n4 3\n➔ CuS(s) + Li+ (aq) + NO (aq)\n3\nB. Li+(aq) + S-(aq) + Cu+(aq) + NO -(aq)\n3\n➔ CuS(s) + LiNO (aq)\n3\nC. 2Li+(aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ Cu2+(aq) + S2-(aq) + 2LiNO (s)\n3\nD. 2Li+ (aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ CuS(s) + 2Li+ (aq) + 2NO -(aq)\n3\nComplete Ionic Equation:\ncontains the solids and ALL the ionic species",
+    "question_page": 237,
+    "solution_page": 238,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 2,
+    "is_challenge": false,
+    "question_text": "Give the net ionic equation for the reaction that occurs when\naqueous solutions of barium nitrate and ammonium\nphosphate are mixed:\nA. 3Ba(NO ) (aq) + 2(NH ) PO (aq) ➔ Ba (PO ) (s) + 6NH NO (aq)\n3 2 4 3 4 3 4 2 4 3\nB. 3Ba(NO ) (aq) + 2(NH ) PO (aq) ➔ Ba (PO ) (aq) + 6NH NO (s)\n3 2 4 3 4 3 4 2 4 3\nC. 2NO -(aq) + 6NH +(aq) ➔ 6NH NO (s)\n3 4 4 3\nD. 3Ba2+ (aq) + 2PO -(aq) ➔ Ba (PO ) (s)\n4 3 4 2\nE. 2NO -(aq) + 6NH +(aq) + 2PO -(aq) ➔ Ba (PO ) (s) + 6NH +(aq) + NO -(aq)\n3 4 4 3 4 2 4 3",
+    "solution_text": "Give the net ionic equation for the reaction that occurs when\naqueous solutions of barium nitrate and ammonium\nphosphate are mixed:\nA. 3Ba(NO ) (aq) + 2(NH ) PO (aq) ➔ Ba (PO ) (s) + 6NH NO (aq)\n3 2 4 3 4 3 4 2 4 3\nB. 3Ba(NO ) (aq) + 2(NH ) PO (aq) ➔ Ba (PO ) (aq) + 6NH NO (s)\n3 2 4 3 4 3 4 2 4 3\nC. 2NO -(aq) + 6NH +(aq) ➔ 6NH NO (s)\n3 4 4 3\nD. 3Ba2+ (aq) + 2PO -(aq) ➔ Ba (PO ) (s)\n4 3 4 2\nE. 2NO -(aq) + 6NH +(aq) + 2PO -(aq) ➔ Ba (PO ) (s) + 6NH +(aq) + NO -(aq)\n3 4 4 3 4 2 4 3\nNet Ionic Equation:\nOnly the species that ACTUALLY react to form a solid!\nAll NH + and NO - ion salts are soluble so any species with\n4 3\nthose ions will cancel out",
+    "question_page": 239,
+    "solution_page": 240,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 3,
+    "is_challenge": false,
+    "question_text": "Consider the decomposition of calcium carbonate to form\ncalcium oxide and carbon dioxide. If the reaction produced\n732 mL of CO at 21°C and 77.1 cm Hg, how many grams of\n2\nCaO are produced?\nA. 0.21 g\nB. 1.73 g\nC. 1.86 g\nD. 3.10 g\nE. 17.2 g",
+    "solution_text": "Consider the decomposition of calcium carbonate to form\ncalcium oxide and carbon dioxide. If the reaction produced\n732 mL of CO at 21°C and 77.1 cm Hg, how many grams of\n2\nCaO are produced?\n1 CaCO (s) ➔ CaO(s) + CO (g)\n3 2\nA. 0.21 g\n77.1 cm Hg = 1.01 atm\nB. 1.73 g\n2 PV = nRT 21°C = 294 K\nC. 1.86 g\nn = PV/RT\nD. 3.10 g\n= (1.01 atm)(0.732L)/(0.082 L-atm/mol-K)(294 K)\nE. 17.2 g\n= 0.031 moles\n1:1 mole ratio\n3\n0.031 moles CaO\n0.031 moles CaO x 56.08 g/mol\n4\n= 1.73 grams",
+    "question_page": 241,
+    "solution_page": 242,
+    "level": 3,
+    "learning_goals": [
+      "10"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 4,
+    "is_challenge": false,
+    "question_text": "Consider the reaction between 100 mL of 0.41 M iron(II)\nnitrate with 63 mL of 0.35M potassium phosphate. How\nmany moles of precipitate are formed from this reaction?\nA. 0.011\nB. 0.014\nC. 0.022\nD. 0.041",
+    "solution_text": "Consider the reaction between 100 mL of 0.41 M iron(II)\nnitrate with 63 mL of 0.35M potassium phosphate. How\nmany moles of precipitate are formed from this reaction?\n1 3Fe(NO ) (aq) + 2K PO (aq) ➔ 6KNO (aq) + Fe (PO ) (s)\n3 2 3 4 3 3 4 2\nA. 0.011\nmoles(cid:0)of(cid:0)solute\nB. 0.014\n2 M(cid:0)=(cid:0) moles = M x vol (L)\nvolume(cid:0)of(cid:0)solution(cid:0)(L)(cid:0)\nC. 0.022\nD. 0.041\n3Fe(NO ) 2K PO\n3 2 3 4\n0.41 M x 0.100 L = 0.041 mol 0.35 M x 0.063 L = 0.0221 mol\n3\nLR 0.0221 x (1/2)\n0.041 x (1/3)\ncalcs = 0.014 mol Fe (PO ) = 0.011 mol Fe (PO )\n3 4 2\n3 4 2",
+    "question_page": 243,
+    "solution_page": 244,
+    "level": 3,
+    "learning_goals": [
+      "10"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 5,
+    "is_challenge": false,
+    "question_text": "What mass, in g, of AgCl is formed from the reaction of 75.0\nmL of a 0.078 M AgC H O solution with 55.0 mL of 0.109 M\n2 3 2\nMgCl solution?\n2\nA. 0.860 g\nB. 1.72 g\nC. 2.56 g\nD. 3.20 g",
+    "solution_text": "What mass, in g, of AgCl is formed from the reaction of 75.0\nmL of a 0.078 M AgC H O solution with 55.0 mL of 0.109 M\n2 3 2\nMgCl solution?\n2\n1 2AgC H O (aq) + MgCl (aq) ➔ 2AgCl(s) + Mg(C H O ) (aq)\n2 3 2 2 2 3 2 2\nA. 0.860 g\nmoles(cid:0)of(cid:0)solute\nmoles = M x vol (L)\n2 M(cid:0)=(cid:0)\nB. 1.72 g volume(cid:0)of(cid:0)solution(cid:0)(L)(cid:0)\nC. 2.56 g\nAgC H O MgCl\nD. 3.20 g\n2 3 2 2\n0.078 M x 0.075 L = 0.006 mol 0.109 M x 0.055 L = 0.0060 mol\nLR\n3 0.006 x (2/2) = 0.006 mol AgCl 0.006 x (2/1) = 0.012 mol AgCl\ncalcs\n4\n0.006 mol x (143.35 g / 1 mol ) = 0.86 g",
+    "question_page": 245,
+    "solution_page": 246,
+    "level": 3,
+    "learning_goals": [
+      "10"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 6,
+    "is_challenge": false,
+    "question_text": "What precipitate is most likely formed from a solution\ncontaining Ba+2, Na+1, OH-1, and CO -2?\n3\nA. NaOH\nB. BaCO\n3\nC. Na CO\n2 3\nD. Ba(OH)\n2",
+    "solution_text": "What precipitate is most likely formed from a solution\ncontaining Ba+2, Na+1, OH-1, and CO -2?\n3\nA. NaOH\n➔Soluble, bc Na is a group 1 metal\nB. BaCO\n3\nC. Na CO ➔Soluble, bc Na is a group 1 metal\n2 3\nD. Ba(OH)\n➔Slightly soluble, bc OH & Ba2+\n2\n2. Alkali metal (Group 1A) salts and NH + are soluble.\n4\n3. F-, S2-, CO 2-, CrO 2-, PO 3- salts are insoluble, except for those\n3 4 4\ncontaining Group 1A cations.\n6. OH salts are insoluble (except for those containing Group 1A\ncations and NH + which are soluble and those containing Ca2+ ,\n4\nSr2+ and Ba2+ which are slightly soluble).",
+    "question_page": 229,
+    "solution_page": 230,
+    "level": 2,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 7,
+    "is_challenge": false,
+    "question_text": "How many of the following compounds are soluble in water?\nCu(OH) LiNO NH Br K SO PbCl BaSO\n2 3 4 2 4 2 4\nA. 0\nB. 1\nC. 2\nD. 3\nE. 4",
+    "solution_text": "How many of the following compounds are soluble in water?\nCu(OH) LiNO NH Br K SO PbCl BaSO\n2 3 4 2 4 2 4\nA. 0\nSoluble Soluble Soluble\nB. 1\n1. Nitrate (NO -1) and acetate (C H O -1) salts are soluble.\n3 2 3 2\nC. 2\n2. Alkali metal (Group 1A) salts and NH + are soluble.\n4\nD. 3\n4. Cl-1, Br-1, and I-1 salts are soluble (except when combined\nE. 4\nwith Ag+, Hg 2+, Pb2+).\n2\n5. Sulfate salts are soluble (except when combined with Ag+,\nHg 2+, Pb2+, Ca2+ , Sr2+ and Ba2+).\n2\n6. OH-1 salts are insoluble (except for those containing Group\n1A cations and NH + which are soluble and those containing\n4\nCa2+ , Sr2+ and Ba2+ which are slightly soluble).",
+    "question_page": 231,
+    "solution_page": 232,
+    "level": 3,
+    "learning_goals": [
+      "8"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 8,
+    "is_challenge": false,
+    "question_text": "Choose the reaction that represents a combustion reaction:\nA. C H O (l) + 8O (g) ➔ 6CO (g) + 6H O(g)\n6 12 2 2 2 2\nB. Mg(s) + Cl (l) ➔ MgCl (aq)\n2 2\nC. C H O (l) ➔ 6C(s) + 6H (g) + O (g)\n6 12 2 2 2\nD. NaOH(aq) + CuCl (aq)➔ NaCl (aq) + Cu(OH) (s)\n2 2 2\nE. None of the above are combustion",
+    "solution_text": "Choose the reaction that represents a combustion reaction:\nA. C H O (l) + 8O (g) ➔ 6CO (g) + 6H O(g)\n6 12 2 2 2 2\nB. Mg(s) + Cl (l) ➔ MgCl (aq)\n2 2\nC. C H O (l) ➔ 6C(s) + 6H (g) + O (g)\n6 12 2 2 2\nD. NaOH(aq) + CuCl (aq)➔ NaCl (aq) + Cu(OH) (s)\n2 2 2\nE. None of the above are combustion\nA = Combustion (reaction with oxygen)\nB = Synthesis (combining things)\nC = Decomposition (breaking down)\nD = Double displacement (swapping ions)",
+    "question_page": 233,
+    "solution_page": 234,
+    "level": 1,
+    "learning_goals": [
+      "6"
+    ]
+  },
+  {
+    "topic": 18,
+    "qnum": 9,
+    "is_challenge": false,
+    "question_text": "Give the complete ionic equation for the reaction that occurs\nwhen aqueous solutions of lithium sulfide and copper (II)\nnitrate are mixed:\nA. Li+(aq) + SO 2-(aq) + Cu+(aq) + NO -(aq)\n4 3\n➔ CuS(s) + Li+ (aq) + NO (aq)\n3\nB. Li+(aq) + S-(aq) + Cu+(aq) + NO -(aq)\n3\n➔ CuS(s) + LiNO (aq)\n3\nC. 2Li+(aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ Cu2+(aq) + S2-(aq) + 2LiNO (s)\n3\nD. 2Li+ (aq) + S2-(aq) + Cu2+(aq) + 2NO -(aq)\n3\n➔ CuS(s) + 2Li+ (aq) + 2NO -(aq)\n3",
+    "solution_text": null,
+    "question_page": 235,
+    "solution_page": null,
+    "level": 2,
+    "learning_goals": [
+      "9"
+    ]
+  }
+]
