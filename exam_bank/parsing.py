@@ -116,7 +116,7 @@ def build_question_bank(entries) -> List[Question]:
             q_obj.is_challenge = True
 
         if kind == "question":
-            q_obj.question_text = e["text"]
+            # q_obj.question_text = e["text"]
             q_obj.question_page = e["page"]
             q_obj.level = e.get("level")
             q_obj.learning_goals = e.get("learning_goals")
@@ -126,7 +126,7 @@ def build_question_bank(entries) -> List[Question]:
             q_obj.solution_page = e["page"]
 
         elif kind == "challenge_q":
-            q_obj.question_text = e["text"]
+            # q_obj.question_text = e["text"]
             q_obj.question_page = e["page"]
 
         elif kind == "challenge_sol":
