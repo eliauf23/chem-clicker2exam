@@ -190,7 +190,9 @@ def get_cached_questions(src_pdf: str, use_uploaded: bool, uploaded_file):
         questions = build_question_bank(entries)
         # TODO: write to file!
 
-        st.success(f"Question bank built from upload! Found {len(questions)} questions.")
+        st.success(
+            f"Question bank built from upload! Found {len(questions)} questions."
+        )
     else:
         ensure_question_bank_disk()
         questions = load_question_bank_json(BANK_JSON)
@@ -208,7 +210,7 @@ def get_cached_questions(src_pdf: str, use_uploaded: bool, uploaded_file):
 # Main Streamlit app
 # -----------------------------------------
 def main():
-    st.title("CHE 166 Practice Exam Builder 🧪")
+    st.title("CHE 166 Practice Exam Builder")
     st.subheader("Build practice exams from in-class clicker questions")
 
     # --------------------------
@@ -502,7 +504,7 @@ def main():
             "base_name": base_name,
         }
 
-        st.success("PDFs generated! Scroll down to download them 👇")
+        st.success("PDFs generated! Downloads available below")
 
     # --------------------------
     # Download section (persists)
