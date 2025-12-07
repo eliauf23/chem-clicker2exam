@@ -4,6 +4,8 @@ import random
 from collections import defaultdict
 from typing import Iterable, Set, Tuple, List
 import streamlit as st
+import tempfile 
+
 
 from exam_bank.parsing import (
     parse_pdf_to_entries,
@@ -19,8 +21,6 @@ from exam_bank.pdf_utils import (
 )
 
 SRC_PDF = "data/allclickerslides.pdf"
-# SRC_PDF = "data/slides.pdf"
-
 BANK_JSON = "output/question_bank.json"
 TOPIC_LG_JSON = "config/topic_learning_goals.json"
 
@@ -60,47 +60,7 @@ def ensure_question_bank():
         st.caption(f"Using existing question bank at {BANK_JSON}")
 
 
-# def build_suggested_name(
-#     user_id: str | None,
-#     topics: list[int],
-#     levels: list[int] | None,
-#     learning_goals: list[str] | None,
-#     num_questions: int,
-# ) -> str:
-#     """Build a filename string summarizing filters."""
-#     parts = ["practice_questions"]
-
-#     # Include user ID prefix if provided
-#     if user_id:
-#         safe = "".join(ch for ch in user_id.lower() if ch.isalnum() or ch in "-_")
-#         if safe:
-#             parts.append(safe)
-
-# # TODO: update to say which preset the user is usign e.g. exam1, 2, 3, all (need to add all)
-#     # Topics
-#     if topics:
-#         topic_part = "T" + "-".join(str(t) for t in sorted(topics))
-#         parts.append(topic_part)
-
-
-#     # Levels
-#     if levels:
-#         lvl_part = "L" + "-".join(str(l) for l in sorted(levels))
-#         parts.append(lvl_part)
-
-#     # Learning goals
-#     if learning_goals:
-#         lg_part = "LG" + "-".join(str(lg) for lg in learning_goals)
-#         parts.append(lg_part)
-
-#     # Number of questions
-#     parts.append(f"{num_questions}questions")
-
-#     return "_".join(parts)
-
-
 def build_suggested_name(
-    user_id: str | None,
     topics: list[int],
     levels: list[int] | None,
     learning_goals: list[str] | None,
@@ -110,12 +70,6 @@ def build_suggested_name(
 ) -> str:
     """Build a filename string summarizing filters."""
     parts = ["practice_questions"]
-
-    # Include user ID prefix if provided
-    if user_id:
-        safe = "".join(ch for ch in user_id.lower() if ch.isalnum() or ch in "-_")
-        if safe:
-            parts.append(safe)
 
     # Include exam preset if provided
     if preset_label:
@@ -146,88 +100,8 @@ def build_suggested_name(
     return "_".join(parts)
 
 
-# -------------------------------------------------
-# Sampling helper: even-ish distribution by topic
-# -------------------------------------------------
-# def sample_questions_even_by_topic(
-#     questions,
-#     n_desired: int,
-#     used_ids: set[str],
-#     avoid_used: bool = True,
-# ):
-#     """
-#     Given a list of filtered Question objects, return a random subset
-#     of size at most n_desired, trying to distribute evenly across topics.
 
-#     - used_ids: set of question IDs already used in this session
-#     - avoid_used: if True, skip any questions whose ID is in used_ids
 
-#     Returns: (selected_questions, updated_used_ids_set)
-#     """
-
-#     # Filter out questions with no page or already used
-#     candidates = [
-#         q
-#         for q in questions
-#         if q.question_page is not None
-#         and (not avoid_used or question_id(q) not in used_ids)
-#     ]
-
-#     if not candidates:
-#         return [], used_ids
-
-#     # Cap requested size by availability
-#     n = min(n_desired, len(candidates))
-
-#     # Group by topic
-#     by_topic: dict[int, list] = defaultdict(list)
-#     for q in candidates:
-#         by_topic[q.topic].append(q)
-
-#     topics = sorted(by_topic.keys())
-#     t_count = len(topics)
-#     if t_count == 0:
-#         return [], used_ids
-
-#     # Base allocation per topic
-#     base = n // t_count
-#     rem = n % t_count
-
-#     allocation: dict[int, int] = {
-#         t: min(base, len(by_topic[t])) for t in topics
-#     }
-
-#     # Distribute remainder to topics that still have capacity
-#     remaining = rem
-#     while remaining > 0:
-#         avail_topics = [t for t in topics if allocation[t] < len(by_topic[t])]
-#         if not avail_topics:
-#             break
-#         for t in avail_topics:
-#             if remaining == 0:
-#                 break
-#             allocation[t] += 1
-#             remaining -= 1
-
-#     # Sample per topic
-#     selected = []
-#     for t in topics:
-#         k = allocation[t]
-#         if k <= 0:
-#             continue
-#         selected.extend(random.sample(by_topic[t], k))
-
-#     random.shuffle(selected)
-
-#     # Update used_ids
-#     new_used = set(used_ids)
-#     for q in selected:
-#         new_used.add(question_id(q))
-
-#     return selected, new_used
-
-from collections import defaultdict
-import random
 
 
 def sample_questions_even_by_topic(
@@ -315,13 +189,48 @@ def main():
     st.title("CHE 166 Practice Exam Builder 🧪")
     st.subheader("Build practice exams from in-class clicker questions")
 
-    if not os.path.exists(SRC_PDF):
-        st.error(f"Missing source PDF: {SRC_PDF}")
+    # --------------------------
+    # NEW: Let user upload a PDF
+    # --------------------------
+    uploaded_file = st.file_uploader(
+        "Upload clicker slides PDF (optional)",
+        type=["pdf"],
+        help="If you don't upload anything, the app will use the built-in PDF.",
+    )
+
+    if uploaded_file is not None:
+        # Save uploaded PDF to a temporary file
+        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+        tmp.write(uploaded_file.read())
+        tmp.flush()
+        tmp.close()
+        src_pdf = tmp.name
+        use_uploaded = True
+        st.caption(f"Using uploaded PDF: {uploaded_file.name}")
+    else:
+        src_pdf = SRC_PDF
+        use_uploaded = False
+        st.caption(f"Using default PDF at: {SRC_PDF}")
+
+    if not os.path.exists(src_pdf):
+        st.error(f"Missing source PDF: {src_pdf}")
         return
 
-    ensure_question_bank()
+    # --------------------------
+    # Build / load question bank
+    # --------------------------
+    if use_uploaded:
+        # Build a fresh bank in memory from the uploaded file
 
-    questions = load_question_bank_json(BANK_JSON)
+        st.info("Building question bank from uploaded PDF…") # TODO: hide this when upload finishes...
+        entries = parse_pdf_to_entries(src_pdf)
+        questions = build_question_bank(entries)
+        st.success(f"Question bank built from upload! Found {len(questions)} questions.")
+    else:
+        # Use your existing JSON-based cache for the default PDF
+        ensure_question_bank()
+        questions = load_question_bank_json(BANK_JSON)
+
     topic_lg_map = load_topic_learning_goals(TOPIC_LG_JSON)
 
     st.info(f"Total questions in bank: **{len(questions)}**")
@@ -334,86 +243,34 @@ def main():
         st.session_state["used_ids"] = []
 
     # --------------------------
-    # User ID (for naming only)
+    # User
     # --------------------------
-    st.header("User")
 
-    if "user_id" not in st.session_state:
-        st.session_state["user_id"] = ""
-
-    user_id = st.text_input(
-        "Enter a unique name so we can keep track of questions you've seen (locally in your browser)",
-        value=st.session_state["user_id"],
-        key="user_id",
-        placeholder="Name",
-    )
-
-    # JavaScript: persist user_id to browser localStorage
-    st.write(
-        """
-        <script>
-        const input = window.parent.document.querySelector('input[id="user_id"]');
-        if (input) {
-            // Load saved value on page load
-            const saved = localStorage.getItem("che166_user_id");
-            if (saved && !input.value) {
-                input.value = saved;
-                input.dispatchEvent(new Event('input'));
-            }
-
-            // Save changes
-            input.onchange = () => {
-                localStorage.setItem("che166_user_id", input.value);
-            };
-        }
-        </script>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    # Reset history button (session only)
     if st.button("Reset my question history for this session"):
         st.session_state["used_ids"] = []
         st.success("Your question history for this session has been reset.")
 
     # --------------------------
-    # Basic filters (always visible)
-    # --------------------------
-    # st.markdown("### Topics")
-    # selected_topics = st.multiselect(
-    #     "Choose topics",
-    #     options=all_topics_in_bank,
-    #     default=all_topics_in_bank,
-    #     format_func=lambda t: f"{t}: {topic_lg_map.get(t, {}).get('title', '')}",
-    # )
-
-    # Topics actually present in the bank
-    all_topics_in_bank = sorted({q.topic for q in questions})
-
-    # --------------------------
-    # Simple exam presets
+    # Exam / Topic Range
     # --------------------------
     st.markdown("### Exam / Topic Range")
 
-    # Maps exam names → (start_topic, end_topic), inclusive
     exam_topic_ranges = {
         "Exam 1": (1, 6),
         "Exam 2": (7, 12),
         "Exam 3": (13, 18),
         "All": (1, 18),
     }
-    # Build exam preset dropdown options using the ranges above
     exam_presets = {
         f"{name} (Topics {rng[0]}-{rng[1]})": list(range(rng[0], rng[1] + 1))
         for name, rng in exam_topic_ranges.items()
     }
-    # Add custom option at end
     exam_presets["Custom (choose topics)"] = None
 
     exam_choice = st.radio(
         "Choose an exam or use custom topics:",
         options=list(exam_presets.keys()),
-        index=2,  # default to Exam 3 if you want, or 0 for Exam 1
+        index=2,
     )
 
     preset_topics = exam_presets[exam_choice]
@@ -422,7 +279,6 @@ def main():
 
     selected_topics = []
     if preset_topics is None:
-        # Custom mode: show full topic picker
         selected_topics = st.multiselect(
             "Choose topics",
             options=all_topics_in_bank,
@@ -430,11 +286,7 @@ def main():
             format_func=lambda t: f"{t}: {topic_lg_map.get(t, {}).get('title', '')}",
         )
     else:
-        # Simple mode: auto-select topics for the exam
-        # Also intersect with all_topics_in_bank, just in case some topics aren't present
         selected_topics = [t for t in preset_topics if t in all_topics_in_bank]
-
-        # Show them to the user (read-only)
         pretty = [
             f"T{t}: {topic_lg_map.get(t, {}).get('title', '')}" for t in selected_topics
         ]
@@ -455,7 +307,6 @@ def main():
         value=True,
     )
 
-    # How many questions?
     num_questions = st.number_input(
         "Number of questions in this practice exam",
         min_value=1,
@@ -475,14 +326,13 @@ def main():
     )
 
     # --------------------------
-    # Advanced Mode for learning goals
+    # Advanced filters (LGs)
     # --------------------------
     advanced_mode = st.checkbox("Advanced filters (learning goals)", value=False)
 
     if advanced_mode:
         st.markdown("### Learning Goals (filtered by topic)")
 
-        # Build list of (topic, code, text)
         lg_triplets: list[tuple[int, str, str]] = []
 
         if selected_topics:
@@ -495,7 +345,6 @@ def main():
                 for code, text in data["goals"].items():
                     lg_triplets.append((topic, code, text))
 
-        # Dedupe
         seen = set()
         unique_lg_triplets: list[tuple[int, str, str]] = []
         for topic, code, text in lg_triplets:
@@ -504,7 +353,6 @@ def main():
                 seen.add(key)
                 unique_lg_triplets.append((topic, code, text))
 
-        # Labels like "T13 · LG 4: Balance chemical equations…"
         lg_labels = []
         label_to_code = {}
         for topic, code, text in unique_lg_triplets:
@@ -528,17 +376,9 @@ def main():
 
     st.markdown("---")
 
-    # -------------------------------------------------------
-    # Name + Build PDFs
-    # -------------------------------------------------------
-    # suggested_name = build_suggested_name(
-    #     user_id=user_id,
-    #     topics=selected_topics,
-    #     levels=selected_levels,
-    #     learning_goals=selected_lg_codes,
-    #     num_questions=int(num_questions),
-    # )
-
+    # --------------------------
+    # Name + build PDFs
+    # --------------------------
     if exam_choice.startswith("Exam"):
         preset_label = exam_choice.split()[1]  # "1", "2", "3", "4"
         if preset_label != "4":
@@ -549,7 +389,6 @@ def main():
         preset_label = "custom"
 
     suggested_name = build_suggested_name(
-        user_id=user_id,
         topics=selected_topics,
         levels=selected_levels,
         learning_goals=selected_lg_codes,
@@ -561,7 +400,6 @@ def main():
     base_name = st.text_input("Name your PDF set (no spaces)", value=suggested_name)
 
     if st.button("Build PDFs"):
-        # 1) Apply topic/level/LG filters to get a candidate pool
         filtered = select_questions(
             questions,
             topics=selected_topics or None,
@@ -585,15 +423,10 @@ def main():
             st.warning("No questions match these filters.")
             return
 
-        # 2) Sample evenly by topic, avoiding previously used (in this session)
         current_used_ids = set(st.session_state.get("used_ids", []))
 
-        # Decide how many questions we actually want
         n_desired = int(num_questions)
         if use_all_matching:
-            # Max exam length:
-            # - if avoid_used=True → use all UNUSED that match filters
-            # - if avoid_used=False → use all that match filters
             if avoid_used:
                 n_desired = len(unused_filtered)
             else:
@@ -618,7 +451,6 @@ def main():
             st.warning("No available questions left (given filters and usage history).")
             return
 
-        # Save updated used IDs back into session state
         st.session_state["used_ids"] = list(updated_used_ids)
 
         st.write(f"Selected **{len(selected)}** questions for this exam.")
@@ -628,12 +460,11 @@ def main():
         s_path = f"output/{base_name}_solutions.pdf"
         qa_path = f"output/{base_name}_q_and_a.pdf"
 
-        # 3) Build PDFs for the sampled questions
-        build_question_pdf(SRC_PDF, selected, q_path)
-        build_solution_pdf(SRC_PDF, selected, s_path)
-        build_interleaved_q_and_a_pdf(SRC_PDF, selected, qa_path)
+        # IMPORTANT: use src_pdf (uploaded or default), not SRC_PDF
+        build_question_pdf(src_pdf, selected, q_path)
+        build_solution_pdf(src_pdf, selected, s_path)
+        build_interleaved_q_and_a_pdf(src_pdf, selected, qa_path)
 
-        # Helper to load PDF bytes
         def load_bytes(path: str) -> bytes:
             with open(path, "rb") as f:
                 return f.read()
@@ -662,7 +493,6 @@ def main():
                 file_name=os.path.basename(qa_path),
                 mime="application/pdf",
             )
-
 
 if __name__ == "__main__":
     main()

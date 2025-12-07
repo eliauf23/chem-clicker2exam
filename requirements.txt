@@ -5,6 +5,7 @@ cachetools==6.2.2
 certifi==2025.11.12
 cffi==2.0.0
 charset-normalizer==3.4.4
+-e git+https://github.com/eliauf23/chem-clicker2exam.git@3bc6580440aa33f2be63db8e0bb3915db30d7f2d#egg=chem_clicker2exam
 click==8.3.1
 cryptography==46.0.3
 Flask==3.1.2
@@ -51,4 +52,3 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.6.0
 Werkzeug==3.1.4
-git+ssh://git@github.com/eliauf23/chem-clicker2exam-data.git
