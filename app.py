@@ -210,7 +210,7 @@ def main():
     else:
         src_pdf = SRC_PDF
         use_uploaded = False
-        st.caption(f"Using default PDF at: {SRC_PDF}")
+        # st.caption(f"Using default PDF at: {SRC_PDF}")
 
     if not os.path.exists(src_pdf):
         # st.error(f"Missing source PDF: {src_pdf}")
