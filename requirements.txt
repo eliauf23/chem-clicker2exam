@@ -51,3 +51,4 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.6.0
 Werkzeug==3.1.4
+git+ssh://git@github.com/eliauf23/chem-clicker2exam-data.git
