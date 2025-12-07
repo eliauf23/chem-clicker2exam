@@ -1,14 +1,4 @@
 import re
-import json
-from dataclasses import dataclass, asdict
-from typing import List, Dict, Tuple, Optional, Iterable
-from pypdf import PdfReader, PdfWriter
-from typing import List, Optional
-import pdfplumber
-
-from exam_bank.models import Question
-
-
 
 # ---------- REGEXES ----------
 # building blocks
@@ -32,10 +22,13 @@ QUESTION_HEADER_RE = re.compile(
 )
 
 SOLUTION_HEADER_RE = re.compile(
-    rf"""^
-        {TOPIC_STR}
-        (100|[1-9][0-9]?)        # question number for solutions, keep your 100 support here
-        \s*:\s*Solution\b
+    rf"""
+        ^\s*
+        {TOPIC_STR}        # T<topic>, captures topic as group(1)
+        \s*                # optional space between topic and Q
+        {QNUM_STR}         # Q<qnum>, captures qnum as group(2)
+        \s*:\s*            # colon with optional spaces
+        Solution\b         # the word 'Solution'
     """,
     re.IGNORECASE | re.VERBOSE,
 )

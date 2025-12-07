@@ -66,7 +66,6 @@ def build_interleaved_q_and_a_pdf(
 
     print(f"Wrote interleaved Q&A PDF to {output_pdf_path}")
 
-from typing import Iterable, Optional, List
 
 # def select_questions(
 #     questions: Iterable["Question"],
@@ -140,7 +139,6 @@ from typing import Iterable, Optional, List
 #     result.sort(key=sort_key)
 #     return result
 
-from typing import Iterable, Optional, List
 
 def select_questions(
     questions: Iterable["Question"],
@@ -149,7 +147,7 @@ def select_questions(
     levels: Optional[list[int]] = None,
     learning_goals: Optional[list[str]] = None,
     require_question_page: bool = True,
-    require_solution_page: bool = False,
+    require_solution_page: bool = True,
 ) -> List["Question"]:
     """
     Filter questions by topic, challenge flag, level, and learning goals.

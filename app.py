@@ -188,6 +188,8 @@ def get_cached_questions(src_pdf: str, use_uploaded: bool, uploaded_file):
         st.info("Building question bank from uploaded PDF…")
         entries = parse_pdf_to_entries(src_pdf)
         questions = build_question_bank(entries)
+        # TODO: write to file!
+
         st.success(f"Question bank built from upload! Found {len(questions)} questions.")
     else:
         ensure_question_bank_disk()
@@ -239,6 +241,7 @@ def main():
     # Question bank (cached)
     # --------------------------
     questions = get_cached_questions(src_pdf, use_uploaded, uploaded_file)
+    print(questions)
     topic_lg_map = load_topic_learning_goals(TOPIC_LG_JSON)
 
     st.info(f"Total questions in bank: **{len(questions)}**")
