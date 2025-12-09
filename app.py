@@ -10,7 +10,6 @@ from st_files_connection import FilesConnection
 
 from exam_bank.parsing import (
     build_question_bank,
-    load_question_bank_json,
     parse_pdf_to_entries,
     save_question_bank_json,
 )
@@ -21,10 +20,21 @@ from exam_bank.pdf_utils import (
     select_questions,
 )
 
+s3_path = None
+s3_info = None
+s3_etag = None
+s3_last_modified = None
+
 conn = st.connection('s3', type=FilesConnection)
 
 with conn.open('clicker2chem-data/allclickerslides.pdf', 'rb') as f:
     pdf_bytes = f.read()
+    s3_path = 'clicker2chem-data/allclickerslides.pdf'
+    s3_info = conn._instance.stat(s3_path)
+    s3_etag = s3_info.get("ETag")
+    s3_last_modified = s3_info.get("LastModified")
+
+
 
 tmp_src = tempfile.NamedTemporaryFile(delete=False, suffix='.pdf')
 tmp_src.write(pdf_bytes)
@@ -58,15 +68,15 @@ def load_topic_learning_goals(path: str) -> dict[int, dict]:
     return {int(k): v for k, v in raw.items()}
 
 
-def ensure_question_bank_disk():
-    """Make sure BANK_JSON exists for the default PDF."""
-    os.makedirs("output", exist_ok=True)
-    if not os.path.exists(BANK_JSON):
-        st.info("Building question bank from default slides…")
-        entries = parse_pdf_to_entries(SRC_PDF)
-        questions = build_question_bank(entries)
-        save_question_bank_json(questions, BANK_JSON)
-        st.success("Question bank built and cached to JSON.")
+# def ensure_question_bank_disk():
+#     """Make sure BANK_JSON exists for the default PDF."""
+#     os.makedirs("output", exist_ok=True)
+#     if not os.path.exists(BANK_JSON):
+#         st.info("Building question bank from default slides…")
+#         entries = parse_pdf_to_entries(SRC_PDF)
+#         questions = build_question_bank(entries)
+#         save_question_bank_json(questions, BANK_JSON)
+#         st.success("Question bank built and cached to JSON.")
 
 
 def build_suggested_name(
@@ -172,45 +182,38 @@ def sample_questions_even_by_topic(
 
 
 def get_cached_questions(src_pdf: str, use_uploaded: bool, uploaded_file):
-    """
-    Return the question bank, caching it in st.session_state so we don't
-    rebuild/parse on every rerun.
-
-    For default PDF:
-      - uses BANK_JSON on disk, cached for the session.
-
-    For uploaded PDF:
-      - parses once per unique uploaded file (name+size) per session.
-    """
-    # Build a cache key for the current "source"
+    # Determine cache key
     if use_uploaded and uploaded_file is not None:
         src_kind = "uploaded"
         file_id = f"{uploaded_file.name}-{uploaded_file.size}"
     else:
         src_kind = "default"
-        file_id = SRC_PDF  # simple identifier
 
-    # Check session_state cache
+        # NEW: detect S3 file changes via ETag + LastModified
+        info = conn._instance.stat('clicker2chem-data/allclickerslides.pdf')
+        etag = info.get("ETag")
+        lm = info.get("LastModified")
+
+        # fallback if missing
+        lm_ts = lm.timestamp() if hasattr(lm, "timestamp") else lm
+
+        file_id = f"s3-{etag}-{lm_ts}"
+
+    # Check cache
     qb = st.session_state.get("qbank")
-    if qb:
-        if qb.get("src_kind") == src_kind and qb.get("file_id") == file_id:
-            return qb["questions"]
+    if qb and qb["src_kind"] == src_kind and qb["file_id"] == file_id:
+        return qb["questions"]
 
-    # Not cached (or source changed) → build/load
+    # Rebuild cache (file changed)
     if src_kind == "uploaded":
-        st.info("Building question bank from uploaded PDF…")
+        st.info("Rebuilding question bank from uploaded PDF…")
         entries = parse_pdf_to_entries(src_pdf)
         questions = build_question_bank(entries)
-        # TODO: write to file!
-
-        st.success(
-            f"Question bank built from upload! Found {len(questions)} questions."
-        )
     else:
-        ensure_question_bank_disk()
-        questions = load_question_bank_json(BANK_JSON)
+        st.info("Rebuilding question bank from updated S3 PDF…")
+        entries = parse_pdf_to_entries(src_pdf)
+        questions = build_question_bank(entries)
 
-    # Store in session_state
     st.session_state["qbank"] = {
         "src_kind": src_kind,
         "file_id": file_id,
@@ -229,28 +232,29 @@ def main():
     # --------------------------
     # Optional PDF upload
     # --------------------------
-    uploaded_file = st.file_uploader(
-        "Upload clicker slides PDF (optional)",
-        type=["pdf"],
-        help="If you don't upload anything, the app will use the built-in PDF.",
-    )
+    # uploaded_file = st.file_uploader(
+    #     "Upload clicker slides PDF (optional)",
+    #     type=["pdf"],
+    #     help="If you don't upload anything, the app will use the built-in PDF.",
+    # )
 
-    if uploaded_file is not None:
-        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
-        tmp.write(uploaded_file.read())
-        tmp.flush()
-        tmp.close()
-        src_pdf = tmp.name
-        use_uploaded = True
-        st.caption(f"Using uploaded PDF: {uploaded_file.name}")
-    else:
-        src_pdf = SRC_PDF
-        use_uploaded = False
-        st.caption(f"Using default PDF at: {SRC_PDF}")
+    uploaded_file = None
+    # if uploaded_file is not None:
+    #     tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+    #     tmp.write(uploaded_file.read())
+    #     tmp.flush()
+    #     tmp.close()
+    #     src_pdf = tmp.name
+    #     use_uploaded = True
+    #     st.caption(f"Using uploaded PDF: {uploaded_file.name}")
+    # else:
+    src_pdf = SRC_PDF
+    use_uploaded = False
+        # st.caption(f"Using default PDF at: {SRC_PDF}")
 
-    if not os.path.exists(src_pdf):
-        st.error(f"Missing source PDF: {src_pdf}")
-        return
+    # if not os.path.exists(src_pdf):
+    #     st.error(f"Missing source PDF: {src_pdf}")
+    #     return
 
     # --------------------------
     # Question bank (cached)
