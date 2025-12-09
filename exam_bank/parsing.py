@@ -1,23 +1,22 @@
-import re
 import json
+import re
 from dataclasses import asdict
-from typing import List, Dict, Optional
-from typing import List, Optional
+
 import pdfplumber
 
 from exam_bank.models import Question
 from exam_bank.regexes import (
-    QUESTION_HEADER_RE,
-    SOLUTION_HEADER_RE,
     CHALLENGE_HEADER_RE,
     CHALLENGE_SOLUTION_HEADER_RE,
+    QUESTION_HEADER_RE,
+    SOLUTION_HEADER_RE,
 )
 
 # ---------- PARSING ----------
 
 def parse_pdf_to_entries(pdf_path: str):
     entries = []
-    current_topic: Optional[int] = None
+    current_topic: int | None = None
 
     with pdfplumber.open(pdf_path) as pdf:
         for page_index, page in enumerate(pdf.pages, start=1):
@@ -94,8 +93,8 @@ def parse_pdf_to_entries(pdf_path: str):
 
     return entries
 
-def build_question_bank(entries) -> List[Question]:
-    bank: Dict[tuple[int, int], Question] = {}
+def build_question_bank(entries) -> list[Question]:
+    bank: dict[tuple[int, int], Question] = {}
 
     for e in entries:
         key = (e["topic"], e["qnum"])
@@ -136,13 +135,13 @@ def build_question_bank(entries) -> List[Question]:
     return list(bank.values())
 
 
-def save_question_bank_json(questions: List[Question], output_path: str):
+def save_question_bank_json(questions: list[Question], output_path: str):
     data = [asdict(q) for q in questions]
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def load_question_bank_json(path: str) -> List[Question]:
-    with open(path, "r", encoding="utf-8") as f:
+def load_question_bank_json(path: str) -> list[Question]:
+    with open(path, encoding='utf-8') as f:
         data = json.load(f)
     return [Question(**q) for q in data]

@@ -4,3 +4,4 @@ exam_bank/__pycache__
 data/
 output/
 *.pdf
+.streamlit/

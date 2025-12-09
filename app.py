@@ -1,29 +1,42 @@
-import os
 import json
+import os
 import random
 import tempfile
 from collections import defaultdict
-from typing import Iterable, Set, Tuple, List
+from collections.abc import Iterable
 
 import streamlit as st
+from st_files_connection import FilesConnection
 
 from exam_bank.parsing import (
-    parse_pdf_to_entries,
     build_question_bank,
-    save_question_bank_json,
     load_question_bank_json,
+    parse_pdf_to_entries,
+    save_question_bank_json,
 )
 from exam_bank.pdf_utils import (
+    build_interleaved_q_and_a_pdf,
     build_question_pdf,
     build_solution_pdf,
-    build_interleaved_q_and_a_pdf,
     select_questions,
 )
+
+conn = st.connection('s3', type=FilesConnection)
+
+with conn.open('clicker2chem-data/allclickerslides.pdf', 'rb') as f:
+    pdf_bytes = f.read()
+
+tmp_src = tempfile.NamedTemporaryFile(delete=False, suffix='.pdf')
+tmp_src.write(pdf_bytes)
+tmp_src.flush()
+tmp_src.close()
+
+SRC_PDF = tmp_src.name
 
 # -----------------------------------------
 # Constants
 # -----------------------------------------
-SRC_PDF = "data/allclickerslides.pdf"
+# SRC_PDF = "data/allclickerslides.pdf"
 BANK_JSON = "output/question_bank.json"
 TOPIC_LG_JSON = "config/topic_learning_goals.json"
 
@@ -40,7 +53,7 @@ def question_id(q) -> str:
 
 
 def load_topic_learning_goals(path: str) -> dict[int, dict]:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding='utf-8') as f:
         raw = json.load(f)
     return {int(k): v for k, v in raw.items()}
 
@@ -97,11 +110,11 @@ def build_suggested_name(
 
 
 def sample_questions_even_by_topic(
-    questions: Iterable["Question"],
+    questions: Iterable['Question'],
     n_desired: int,
-    used_ids: Set[str],
+    used_ids: set[str],
     avoid_used: bool = True,
-) -> Tuple[List["Question"], Set[str]]:
+) -> tuple[list['Question'], set[str]]:
     """
     Given a list of filtered Question objects, return a random subset
     of size at most n_desired, trying to distribute evenly across topics.
@@ -126,7 +139,7 @@ def sample_questions_even_by_topic(
     if not topics:
         return [], used_ids
 
-    allocation = {t: 0 for t in topics}
+    allocation = dict.fromkeys(topics, 0)
     remaining = n
 
     # round-robin allocating questions per topic
@@ -142,7 +155,7 @@ def sample_questions_even_by_topic(
         if not made_progress:
             break
 
-    selected: List["Question"] = []
+    selected: list[Question] = []
     for t in topics:
         k = allocation[t]
         if k <= 0:
